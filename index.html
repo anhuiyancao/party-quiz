@@ -2097,14 +2097,20 @@ function clearAllData() {
 
 // ============ 初始化 ============
 window.addEventListener('DOMContentLoaded', () => {
-  // 优先从localStorage加载已上传的题库
-  const stored = loadData('uploaded_questions', []);
-  if (stored.length > 0) {
-    QUESTIONS = stored;
-  }
-  // 如果没有上传的题库，尝试使用data.js中的内置题库
-  if (QUESTIONS.length === 0 && window.QUESTIONS) {
+  // 始终优先使用data.js内置题库（最新版本）
+  if (window.QUESTIONS && window.QUESTIONS.length > 0) {
     QUESTIONS = window.QUESTIONS;
+    // 如果localStorage存的是旧版题库（题数不同），清除旧数据
+    const stored = loadData('uploaded_questions', []);
+    if (stored.length > 0 && stored.length !== QUESTIONS.length) {
+      saveData('uploaded_questions', []);
+    }
+  } else {
+    // 没有data.js时，尝试从localStorage加载
+    const stored = loadData('uploaded_questions', []);
+    if (stored.length > 0) {
+      QUESTIONS = stored;
+    }
   }
   if (QUESTIONS.length === 0) {
     document.getElementById('totalQuestions').textContent = '0';
