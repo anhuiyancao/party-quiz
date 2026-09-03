@@ -638,6 +638,7 @@ D. 实现共同富裕
       </div>
       <div class="question-card" id="seqQuestionCard"></div>
       <div class="action-bar" id="seqActions">
+        <button class="btn btn-secondary" id="seqPrevBtn" style="display:none" onclick="prevSequential()">上一题</button>
         <button class="btn btn-primary" id="seqConfirmBtn" onclick="confirmSequential()">确认</button>
         <button class="btn btn-secondary" id="seqNextBtn" style="display:none" onclick="nextSequential()">下一题</button>
       </div>
@@ -702,6 +703,7 @@ D. 实现共同富裕
     </div>
     <div class="question-card" id="wpQuestionCard"></div>
     <div class="action-bar">
+      <button class="btn btn-secondary" id="wpPrevBtn" style="display:none" onclick="prevWrongPractice()">上一题</button>
       <button class="btn btn-primary" id="wpConfirmBtn" onclick="confirmWrongPractice()">确认</button>
       <button class="btn btn-secondary" id="wpNextBtn" style="display:none" onclick="nextWrongPractice()">下一题</button>
     </div>
@@ -1008,6 +1010,7 @@ function renderSeqQuestion() {
   $('seqConfirmBtn').style.display = 'block';
   $('seqConfirmBtn').disabled = true;
   $('seqNextBtn').style.display = 'none';
+  $('seqPrevBtn').style.display = seqState.index > 0 ? 'block' : 'none';
 }
 
 function selectSeqOption(label) {
@@ -1107,7 +1110,13 @@ function confirmSequential() {
 
   // 按钮切换
   $('seqConfirmBtn').style.display = 'none';
-  $('seqNextBtn').style.display = 'block';
+  if (correct) {
+    // 答对：800ms后自动跳下一题
+    setTimeout(() => nextSequential(), 800);
+  } else {
+    // 答错：显示"下一题"按钮
+    $('seqNextBtn').style.display = 'block';
+  }
 }
 
 function nextSequential() {
@@ -1120,6 +1129,15 @@ function nextSequential() {
     return;
   }
   renderSeqQuestion();
+}
+
+function prevSequential() {
+  if (seqState.index > 0) {
+    seqState.index--;
+    seqState.selected = [];
+    seqState.answered = false;
+    renderSeqQuestion();
+  }
 }
 
 // ============ 错题集 ============
@@ -1246,6 +1264,7 @@ function renderWpQuestion() {
   $('wpConfirmBtn').style.display = 'block';
   $('wpConfirmBtn').disabled = true;
   $('wpNextBtn').style.display = 'none';
+  $('wpPrevBtn').style.display = wpState.index > 0 ? 'block' : 'none';
 }
 
 function selectWpOption(label) {
@@ -1317,7 +1336,13 @@ function confirmWrongPractice() {
   }
 
   $('wpConfirmBtn').style.display = 'none';
-  $('wpNextBtn').style.display = 'block';
+  if (correct) {
+    // 答对：800ms后自动跳下一题
+    setTimeout(() => nextWrongPractice(), 800);
+  } else {
+    // 答错：显示"下一题"按钮
+    $('wpNextBtn').style.display = 'block';
+  }
 }
 
 function nextWrongPractice() {
@@ -1328,6 +1353,15 @@ function nextWrongPractice() {
     return;
   }
   renderWpQuestion();
+}
+
+function prevWrongPractice() {
+  if (wpState.index > 0) {
+    wpState.index--;
+    wpState.selected = [];
+    wpState.answered = false;
+    renderWpQuestion();
+  }
 }
 
 function clearAllWrong() {
