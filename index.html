@@ -1015,20 +1015,41 @@ function selectSeqOption(label) {
   const q = seqState.list[seqState.index];
 
   if (q.type === 'multiple') {
+    // 多选题：选多个后点击确认
     const idx = seqState.selected.indexOf(label);
     if (idx >= 0) seqState.selected.splice(idx, 1);
     else seqState.selected.push(label);
+    document.querySelectorAll('#seqOptions .option').forEach(el => {
+      const lbl = el.dataset.label;
+      el.classList.toggle('selected', seqState.selected.includes(lbl));
+    });
+    $('seqConfirmBtn').disabled = seqState.selected.length === 0;
   } else {
+    // 单选/判断题：选择后自动判断
     seqState.selected = [label];
+    const correct = isCorrect(q, label);
+
+    if (correct) {
+      // 答对：显示绿色正确状态，短暂延迟后自动跳下一题
+      seqState.answered = true;
+      document.querySelectorAll('#seqOptions .option').forEach(el => {
+        el.classList.add('disabled');
+        if (q.answer.includes(el.dataset.label)) el.classList.add('correct');
+      });
+      // 保存进度
+      const seq = loadData('seq_progress', {});
+      seq[q.id] = true;
+      saveData('seq_progress', seq);
+      // 从错题集移除
+      const wrong = loadData('wrong_questions', []);
+      saveData('wrong_questions', wrong.filter(w => w.id !== q.id));
+      // 800ms后自动跳下一题
+      setTimeout(() => nextSequential(), 800);
+    } else {
+      // 答错：调用确认逻辑显示错误状态和解析
+      confirmSequential();
+    }
   }
-
-  // 更新UI
-  document.querySelectorAll('#seqOptions .option').forEach(el => {
-    const label = el.dataset.label;
-    el.classList.toggle('selected', seqState.selected.includes(label));
-  });
-
-  $('seqConfirmBtn').disabled = seqState.selected.length === 0;
 }
 
 function confirmSequential() {
@@ -1230,17 +1251,38 @@ function renderWpQuestion() {
 function selectWpOption(label) {
   if (wpState.answered) return;
   const q = wpState.list[wpState.index];
+
   if (q.type === 'multiple') {
+    // 多选题：选多个后点击确认
     const idx = wpState.selected.indexOf(label);
     if (idx >= 0) wpState.selected.splice(idx, 1);
     else wpState.selected.push(label);
+    document.querySelectorAll('#wpOptions .option').forEach(el => {
+      el.classList.toggle('selected', wpState.selected.includes(el.dataset.label));
+    });
+    $('wpConfirmBtn').disabled = wpState.selected.length === 0;
   } else {
+    // 单选/判断题：选择后自动判断
     wpState.selected = [label];
+    const correct = isCorrect(q, label);
+
+    if (correct) {
+      // 答对：显示绿色正确状态，短暂延迟后自动跳下一题
+      wpState.answered = true;
+      document.querySelectorAll('#wpOptions .option').forEach(el => {
+        el.classList.add('disabled');
+        if (q.answer.includes(el.dataset.label)) el.classList.add('correct');
+      });
+      // 答对则从错题集移除
+      const wrong = loadData('wrong_questions', []);
+      saveData('wrong_questions', wrong.filter(w => w.id !== q.id));
+      // 800ms后自动跳下一题
+      setTimeout(() => nextWrongPractice(), 800);
+    } else {
+      // 答错：调用确认逻辑显示错误状态和解析
+      confirmWrongPractice();
+    }
   }
-  document.querySelectorAll('#wpOptions .option').forEach(el => {
-    el.classList.toggle('selected', wpState.selected.includes(el.dataset.label));
-  });
-  $('wpConfirmBtn').disabled = wpState.selected.length === 0;
 }
 
 function confirmWrongPractice() {
