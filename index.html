@@ -1045,22 +1045,8 @@ const RAW_loadData = loadData;
 const PRIVATE_KEYS = ['seq_progress', 'wrong_questions', 'exam_history'];
 
 function getCurrentUserId() {
-  let uid = RAW_loadData('current_user_id', null);
-  if (!uid) {
-    // 未登录：创建一个"临时游客"用户（允许不注册先做题，排名会显示为未实名）
-    const registry = RAW_loadData('users_registry', []);
-    uid = 'u_guest_' + Date.now();
-    registry.push({
-      userId: uid,
-      username: '游客' + (registry.length + 1),
-      phone: '',
-      registeredAt: new Date().toISOString(),
-      isGuest: true
-    });
-    RAW_saveData('users_registry', registry);
-    RAW_saveData('current_user_id', uid);
-  }
-  return uid;
+  // 未登录时使用固定 _guest ID，不在注册表中创建游客条目
+  return RAW_loadData('current_user_id', '_guest');
 }
 
 // 覆盖 saveData / loadData：自动给私钥加用户前缀
@@ -1138,10 +1124,10 @@ function deleteUser(userId, ev) {
   ['seq_progress', 'wrong_questions', 'exam_history', 'user_stats'].forEach(k => {
     try { localStorage.removeItem(userId + '_' + k); } catch(e) {}
   });
-  // 如果删的是当前用户，重新取第一个或新建游客
+  // 如果删的是当前用户，切到第一个或退出到未登录态
   if (RAW_loadData('current_user_id', null) === userId) {
     if (registry.length > 0) RAW_saveData('current_user_id', registry[0].userId);
-    else RAW_saveData('current_user_id', null); // getCurrentUserId() 会自动创建游客
+    else RAW_saveData('current_user_id', null); // getCurrentUserId() 会返回 _guest
   }
   showToast('已删除');
   renderUserList();
@@ -1153,18 +1139,31 @@ function renderHomeUserBar() {
   const bar = document.getElementById('homeUserBar');
   if (!bar) return;
   const user = getCurrentUser();
-  if (!user) { bar.innerHTML = ''; return; }
+  if (!user) {
+    // 未登录：显示简洁提示，引导去用户中心
+    bar.innerHTML = `
+      <div class="ub-left">
+        <div class="avatar" style="background:#ddd;color:#999;">?</div>
+        <div class="ub-info">
+          <div class="ub-name" style="color:#999;">未登录</div>
+          <div class="ub-sub">点击「用户中心」注册账号，记录你的学习进度</div>
+        </div>
+      </div>
+      <button class="ub-btn primary" onclick="goToPage('user')">前往注册</button>
+    `;
+    return;
+  }
   const stats = getUserStats(user.userId);
   const rate = stats.totalAnswered > 0 ? Math.round(stats.totalCorrect / stats.totalAnswered * 100) : 0;
   bar.innerHTML = `
     <div class="ub-left">
       <div class="avatar">${userInitial(user.username)}</div>
       <div class="ub-info">
-        <div class="ub-name">${user.username}${user.isGuest ? ' <span style="color:#999;font-size:12px;font-weight:normal;">(游客·点我注册)</span>' : ''}</div>
+        <div class="ub-name">${user.username}</div>
         <div class="ub-sub">📱 ${maskPhone(user.phone)} · 📖 已做 ${stats.totalAnswered} 题 · 🎯 正确率 ${rate}% · 📝 错题 ${stats.wrongCount}</div>
       </div>
     </div>
-    <button class="ub-btn ${user.isGuest ? 'primary' : ''}" onclick="goToPage('user')">${user.isGuest ? '立即注册' : '切换账号'}</button>
+    <button class="ub-btn" onclick="goToPage('user')">切换账号</button>
   `;
 }
 
@@ -1186,16 +1185,15 @@ function renderUserList() {
     const s = getUserStats(u.userId);
     const rate = s.totalAnswered > 0 ? Math.round(s.totalCorrect/s.totalAnswered*100) : 0;
     const active = u.userId === curId;
-    const guestTag = u.isGuest ? '<span style="font-size:11px;color:#999;margin-left:6px;">游客</span>' : '';
     return `
       <div class="user-item ${active?'active':''}" onclick="loginUser('${u.userId}')">
         <div class="u-avatar">${userInitial(u.username)}</div>
         <div class="u-info">
-          <div class="u-name">${u.username}${guestTag}${active?'<span class="u-tag" style="margin-left:6px;">当前</span>':''}</div>
+          <div class="u-name">${u.username}${active?'<span class="u-tag" style="margin-left:6px;">当前</span>':''}</div>
           <div class="u-phone">📱 ${maskPhone(u.phone)}</div>
           <div class="u-stats">📖 ${s.totalAnswered}题 · 🎯 ${rate}% · 📝 ${s.wrongCount}错 · 🏅 ${computeCompositeScore(s)}分</div>
         </div>
-        ${!u.isGuest ? `<button class="u-del" onclick="deleteUser('${u.userId}',event)" title="删除用户">🗑️</button>` : ''}
+        <button class="u-del" onclick="deleteUser('${u.userId}',event)" title="删除用户">🗑️</button>
       </div>`;
   }).join('');
 }
@@ -1305,8 +1303,8 @@ function computeRankList() {
 
   const tab = RANK_TAB.current;
   const arr = Array.from(map.values());
-  // 过滤纯游客且零数据的
-  const filtered = arr.filter(e => !(e.isGuest && e.totalAnswered === 0));
+  // 过滤零数据的（未做题的用户不显示）
+  const filtered = arr.filter(e => e.totalAnswered > 0);
 
   switch (tab) {
     case 'answered':   filtered.sort((a,b) => b.totalAnswered - a.totalAnswered); break;
@@ -1381,7 +1379,7 @@ function renderRankList() {
         <div class="rank-no">${medal}</div>
         <div class="r-avatar">${userInitial(e.username)}</div>
         <div class="r-info">
-          <div class="r-name">${e.username}${e.isGuest?' <span style="color:#999;font-size:11px;font-weight:normal;">(游客)</span>':''}${me?' <span class="me-tag">我</span>':''}</div>
+          <div class="r-name">${e.username}${me?' <span class="me-tag">我</span>':''}</div>
           <div class="r-sub">${subText}</div>
         </div>
         <div class="rank-score">
@@ -1532,9 +1530,8 @@ function goBack() {
 // ============ 首页统计 ============
 function updateHomeStats() {
   $('totalQuestions').textContent = QUESTIONS.length;
-  const seq = loadData('seq_progress', {});
-  const answered = Object.keys(seq).length;
-  $('answeredCount').textContent = answered;
+  const stats = getUserStats();
+  $('answeredCount').textContent = stats.totalAnswered;
   const wrong = loadData('wrong_questions', []);
   $('wrongCount').textContent = wrong.length;
   const exams = loadData('exam_history', []);
@@ -1692,8 +1689,11 @@ function selectSeqOption(label) {
       saveData('seq_progress', seq);
       // 从错题集移除
       const wrong = loadData('wrong_questions', []);
-      saveData('wrong_questions', wrong.filter(w => w.id !== q.id));
-      // 300ms后自动跳下一题
+      const filteredWrong = wrong.filter(w => w.id !== q.id);
+      saveData('wrong_questions', filteredWrong);
+      // 用户统计累加（答对，错题可能被移除）
+      updateUserStatsOnAnswer(true, false, filteredWrong.length !== wrong.length);
+      // 500ms后自动跳下一题
       setTimeout(() => nextSequential(), 500);
     } else {
       // 答错：调用确认逻辑显示错误状态和解析
