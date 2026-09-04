@@ -492,6 +492,147 @@ body {
   transition:transform 0.15s;
 }
 .upload-paste-btn:active { transform:scale(0.97); }
+
+/* ========== 用户系统 ========== */
+.user-bar {
+  margin: 12px 16px 4px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #fff5f5, #fff);
+  border: 1px solid #ffd6d6;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px;
+}
+.user-bar .ub-left { display:flex; align-items:center; gap:10px; min-width:0; flex:1; }
+.user-bar .avatar {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--red), #ff9a76);
+  color:#fff; display:flex; align-items:center; justify-content:center;
+  font-size:18px; font-weight:700; flex-shrink:0;
+}
+.user-bar .ub-info { min-width:0; flex:1; }
+.user-bar .ub-name { font-weight:700; color:var(--text); font-size:15px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.user-bar .ub-sub { font-size:12px; color:var(--text-light); margin-top:2px; }
+.user-bar .ub-btn {
+  padding: 6px 12px; font-size:13px; font-weight:600; border-radius:20px;
+  border:1px solid var(--red); color:var(--red); background:#fff; cursor:pointer;
+}
+.user-bar .ub-btn.primary { background:var(--red); color:#fff; }
+
+/* 注册/登录 表单 */
+.user-section { margin: 16px; }
+.user-section h3 { margin-bottom: 12px; font-size: 16px; color:var(--text); }
+.form-row { display:flex; gap:10px; margin-bottom:12px; }
+.form-row .form-field { flex:1; }
+.form-label { font-size:13px; color:var(--text-light); margin-bottom:6px; display:block; }
+.form-input {
+  width:100%; box-sizing:border-box;
+  padding: 12px 14px; border: 1px solid #e5e7eb;
+  border-radius: 10px; font-size: 15px; background:#fff;
+  transition:border-color 0.2s;
+}
+.form-input:focus { outline:none; border-color:var(--red); }
+.form-tip { font-size:12px; color:var(--text-light); margin-top:6px; }
+
+/* 用户列表 */
+.user-list { display:flex; flex-direction:column; gap:10px; }
+.user-item {
+  background:#fff; border:1px solid #e5e7eb; border-radius:12px;
+  padding: 12px 14px; display:flex; align-items:center; gap:12px;
+  cursor:pointer; transition:all 0.2s;
+}
+.user-item:hover { border-color:var(--red); box-shadow:0 2px 8px rgba(196,30,58,0.08); }
+.user-item.active { border-color:var(--red); background:#fff5f5; }
+.user-item .u-avatar {
+  width:44px; height:44px; border-radius:50%;
+  background: linear-gradient(135deg, var(--red), #ffb088);
+  color:#fff; display:flex; align-items:center; justify-content:center;
+  font-size:18px; font-weight:700; flex-shrink:0;
+}
+.user-item .u-info { flex:1; min-width:0; }
+.user-item .u-name { font-weight:700; font-size:15px; }
+.user-item .u-phone { font-size:12px; color:var(--text-light); margin-top:3px; }
+.user-item .u-stats { font-size:12px; color:var(--red); margin-top:4px; font-weight:600; }
+.user-item .u-tag {
+  font-size:11px; padding:3px 10px; border-radius:12px;
+  background:var(--red); color:#fff; font-weight:600;
+}
+.user-item .u-del {
+  padding:6px 10px; font-size:12px; color:var(--text-light);
+  background:none; border:none; cursor:pointer;
+}
+
+/* ========== 排行榜 ========== */
+.rank-tabs {
+  display:flex; gap:8px; margin: 14px 16px 0;
+  background:#f3f4f6; padding:4px; border-radius:12px;
+}
+.rank-tab {
+  flex:1; padding:10px 6px; text-align:center;
+  font-size:13px; font-weight:600; color:var(--text-light);
+  border-radius:10px; cursor:pointer; transition:all 0.2s;
+}
+.rank-tab.active { background:#fff; color:var(--red); box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+
+.rank-banner {
+  margin: 16px; padding: 18px; border-radius: 14px;
+  background: linear-gradient(135deg, #c41e3a 0%, #8b1530 100%);
+  color:#fff; display:flex; align-items:center; justify-content:space-between;
+  gap:12px;
+}
+.rank-banner .rb-title { font-size:18px; font-weight:700; }
+.rank-banner .rb-sub { font-size:13px; opacity:0.85; margin-top:5px; }
+.rank-banner .rb-ops { display:flex; gap:8px; flex-shrink:0; }
+.rank-banner .rb-btn {
+  padding:9px 14px; font-size:13px; border-radius:10px;
+  background:rgba(255,255,255,0.18); color:#fff; border:1px solid rgba(255,255,255,0.3);
+  cursor:pointer; font-weight:600;
+}
+.rank-banner .rb-btn:hover { background:rgba(255,255,255,0.3); }
+
+.rank-list { margin: 0 16px 20px; display:flex; flex-direction:column; gap:10px; }
+.rank-item {
+  background:#fff; border:1px solid #f1f1f1; border-radius:12px;
+  padding: 12px 14px; display:flex; align-items:center; gap:12px;
+}
+.rank-item.top3 { border:none; box-shadow:0 2px 10px rgba(0,0,0,0.06); }
+.rank-item.top1 { background: linear-gradient(135deg, #fff7e6, #fff); border:1px solid #ffe58f; }
+.rank-item.top2 { background: linear-gradient(135deg, #f5f7fa, #fff); border:1px solid #e4e7ed; }
+.rank-item.top3.rank3 { background: linear-gradient(135deg, #fff2ee, #fff); border:1px solid #ffd6c2; }
+
+.rank-no {
+  width:34px; height:34px; border-radius:10px;
+  background:#f3f4f6; color:var(--text-light);
+  display:flex; align-items:center; justify-content:center;
+  font-weight:800; font-size:16px; flex-shrink:0;
+}
+.rank-item.top1 .rank-no { background:linear-gradient(135deg,#ffd700,#ffae00); color:#fff; }
+.rank-item.top2 .rank-no { background:linear-gradient(135deg,#c0c4cc,#909399); color:#fff; }
+.rank-item.rank3 .rank-no { background:linear-gradient(135deg,#e6a23c,#d48806); color:#fff; }
+
+.rank-item .r-avatar {
+  width:42px; height:42px; border-radius:50%;
+  background: linear-gradient(135deg, var(--red), #ffb088);
+  color:#fff; display:flex; align-items:center; justify-content:center;
+  font-size:17px; font-weight:700; flex-shrink:0;
+}
+.rank-item .r-info { flex:1; min-width:0; }
+.rank-item .r-name { font-weight:700; font-size:15px; display:flex; align-items:center; gap:6px; }
+.rank-item .r-name .me-tag { font-size:10px; padding:1px 7px; border-radius:8px; background:var(--red); color:#fff; font-weight:600; }
+.rank-item .r-sub { font-size:12px; color:var(--text-light); margin-top:3px; }
+
+.rank-score { text-align:right; flex-shrink:0; }
+.rank-score .rs-num { font-size:18px; font-weight:800; color:var(--red); }
+.rank-score .rs-unit { font-size:12px; color:var(--text-light); margin-top:2px; }
+
+.rank-empty {
+  margin: 60px 20px; text-align:center; color:var(--text-light);
+}
+.rank-empty .emoji { font-size:48px; margin-bottom:12px; }
+.rank-empty .hint { font-size:13px; margin-top:6px; line-height:1.6; }
+
+/* 隐藏元素 */
+.hidden { display:none !important; }
 </style>
 </head>
 <body>
@@ -509,6 +650,11 @@ body {
       <span class="badge">坚持学习</span>
       <h2>党务知识学习平台</h2>
       <p>系统学习党的理论方针政策</p>
+    </div>
+
+    <!-- 用户状态条 -->
+    <div class="user-bar" id="homeUserBar">
+      <!-- JS 动态渲染 -->
     </div>
 
     <div class="feature-grid">
@@ -535,6 +681,24 @@ body {
         <div class="feature-info">
           <h3>模拟考试</h3>
           <p>50题 · 满分100分</p>
+        </div>
+        <div class="feature-arrow">›</div>
+      </div>
+
+      <div class="feature-card f4" onclick="goToPage('user')" style="background:linear-gradient(135deg,#fff5f5,#fff);">
+        <div class="feature-icon" style="background:linear-gradient(135deg,#ff9a76,#ff6b6b);">👤</div>
+        <div class="feature-info">
+          <h3>用户中心</h3>
+          <p>注册 · 登录 · 切换账号</p>
+        </div>
+        <div class="feature-arrow">›</div>
+      </div>
+
+      <div class="feature-card f5" onclick="goToPage('rank')" style="background:linear-gradient(135deg,#fff7e6,#fff);">
+        <div class="feature-icon" style="background:linear-gradient(135deg,#ffd700,#ffae00);">🏆</div>
+        <div class="feature-info">
+          <h3>排行榜</h3>
+          <p>做题量 · 正确率 · 综合排名</p>
         </div>
         <div class="feature-arrow">›</div>
       </div>
@@ -709,6 +873,60 @@ D. 实现共同富裕
     </div>
   </div>
 
+  <!-- 用户中心页 -->
+  <div class="page" id="page-user">
+    <div class="user-section">
+      <h3>📝 注册新用户</h3>
+      <div class="form-row">
+        <div class="form-field">
+          <label class="form-label">姓名 / 昵称</label>
+          <input class="form-input" id="regName" placeholder="请输入姓名或昵称（2-12字）" maxlength="12">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label class="form-label">手机号</label>
+          <input class="form-input" id="regPhone" placeholder="请输入11位手机号" maxlength="11" type="tel">
+          <div class="form-tip">手机号用于区分用户，仅保存在本设备浏览器中，不会上传</div>
+        </div>
+      </div>
+      <button class="upload-paste-btn" onclick="registerUser()">✅ 注册并登录</button>
+    </div>
+
+    <div class="user-section">
+      <h3>👥 已注册用户（点击切换登录）</h3>
+      <div class="user-list" id="userList">
+        <!-- JS 动态渲染 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 排行榜页 -->
+  <div class="page" id="page-rank">
+    <div class="rank-tabs">
+      <div class="rank-tab active" data-tab="composite" onclick="switchRankTab('composite')">🏅 综合得分</div>
+      <div class="rank-tab" data-tab="answered" onclick="switchRankTab('answered')">📖 做题量</div>
+      <div class="rank-tab" data-tab="correctRate" onclick="switchRankTab('correctRate')">🎯 正确率</div>
+      <div class="rank-tab" data-tab="wrong" onclick="switchRankTab('wrong')">📝 错题数</div>
+    </div>
+
+    <div class="rank-banner">
+      <div>
+        <div class="rb-title">🏆 学习排行榜</div>
+        <div class="rb-sub" id="rankBannerSub">综合得分 = 已刷题数×1 + 答对数×1 + 正确率加成</div>
+      </div>
+      <div class="rb-ops">
+        <button class="rb-btn" onclick="exportRankData()">📤 导出</button>
+        <button class="rb-btn" onclick="document.getElementById('rankImportInput').click()">📥 导入</button>
+        <input type="file" id="rankImportInput" accept=".json" style="display:none" onchange="importRankData(event)">
+      </div>
+    </div>
+
+    <div class="rank-list" id="rankList">
+      <!-- JS 动态渲染 -->
+    </div>
+  </div>
+
 </div>
 
 <!-- 分享弹窗 -->
@@ -745,7 +963,7 @@ D. 实现共同富裕
 //   { id:3, category:"党的二十大精神", type:"judge", question:"题目内容", options:["正确","错误"], answer:"正确", explanation:"解析" },
 // ]
 </script>
-<script src="data.js?v=566"></script>
+<script src="data.js?v=568"></script>
 <script>
 // ============ 全局状态 ============
 let QUESTIONS = window.QUESTIONS || [];
@@ -806,6 +1024,430 @@ function loadData(key, def) {
   } catch(e) { return def; }
 }
 
+/* ============================================================
+ *      🔐 用户系统 + 排行榜（多用户隔离存储）
+ * ============================================================ */
+// --- 数据模型说明 ---
+// 全局Key（所有用户共享）：
+//   users_registry      - 用户池 [{userId,username,phone,registeredAt}]
+//   current_user_id     - 当前登录用户ID
+//   uploaded_questions  - 题库（原逻辑保留，全局共享）
+//   static_rank_data    - 管理员导入的静态排行榜快照（导出后部署到GitHub即为可见榜单）
+// 用户私有Key（自动加前缀 {userId}_）：
+//   seq_progress        - 顺序刷题进度
+//   wrong_questions     - 错题集
+//   exam_history        - 模拟考试历史
+//   user_stats          - 用户统计{totalAnswered,totalCorrect,wrongCount,examCount,lastActive}
+
+// ---------- 1. 按用户自动加前缀的 localStorage 包装 ----------
+const RAW_saveData = saveData;
+const RAW_loadData = loadData;
+const PRIVATE_KEYS = ['seq_progress', 'wrong_questions', 'exam_history'];
+
+function getCurrentUserId() {
+  let uid = RAW_loadData('current_user_id', null);
+  if (!uid) {
+    // 未登录：创建一个"临时游客"用户（允许不注册先做题，排名会显示为未实名）
+    const registry = RAW_loadData('users_registry', []);
+    uid = 'u_guest_' + Date.now();
+    registry.push({
+      userId: uid,
+      username: '游客' + (registry.length + 1),
+      phone: '',
+      registeredAt: new Date().toISOString(),
+      isGuest: true
+    });
+    RAW_saveData('users_registry', registry);
+    RAW_saveData('current_user_id', uid);
+  }
+  return uid;
+}
+
+// 覆盖 saveData / loadData：自动给私钥加用户前缀
+saveData = function(key, data) {
+  if (PRIVATE_KEYS.includes(key)) key = getCurrentUserId() + '_' + key;
+  RAW_saveData(key, data);
+};
+loadData = function(key, def) {
+  if (PRIVATE_KEYS.includes(key)) key = getCurrentUserId() + '_' + key;
+  return RAW_loadData(key, def);
+};
+
+// ---------- 2. 用户池操作 ----------
+function getUsersRegistry() {
+  return RAW_loadData('users_registry', []).filter(u => u && u.userId);
+}
+function getCurrentUser() {
+  const uid = RAW_loadData('current_user_id', null);
+  if (!uid) return null;
+  return getUsersRegistry().find(u => u.userId === uid) || null;
+}
+function userInitial(name) {
+  if (!name) return '游';
+  const n = name.trim();
+  return n.charAt(0).toUpperCase();
+}
+function maskPhone(p) {
+  if (!p || p.length < 7) return p || '未绑定';
+  return p.substring(0, 3) + '****' + p.substring(p.length - 4);
+}
+function validatePhone(p) { return /^1\d{10}$/.test(p); }
+
+// 注册新用户并登录
+function registerUser() {
+  const nameInput = document.getElementById('regName');
+  const phoneInput = document.getElementById('regPhone');
+  const name = (nameInput?.value || '').trim();
+  const phone = (phoneInput?.value || '').trim();
+
+  if (name.length < 2 || name.length > 12) { showToast('姓名/昵称请输入2-12个字'); return; }
+  if (!validatePhone(phone)) { showToast('请输入正确的11位手机号'); return; }
+
+  const registry = getUsersRegistry();
+  if (registry.some(u => u.phone === phone)) { showToast('该手机号已注册，请直接点击下方用户切换登录'); return; }
+
+  const userId = 'u_' + Date.now();
+  const newUser = { userId, username: name, phone, registeredAt: new Date().toISOString() };
+  registry.push(newUser);
+  RAW_saveData('users_registry', registry);
+  RAW_saveData('current_user_id', userId);
+
+  showToast('🎉 注册成功，已自动登录');
+  nameInput.value = ''; phoneInput.value = '';
+  renderUserList();
+  renderHomeUserBar();
+}
+
+// 点击用户登录
+function loginUser(userId) {
+  RAW_saveData('current_user_id', userId);
+  showToast('✅ 切换成功');
+  renderUserList();
+  renderHomeUserBar();
+  initHomePage();
+}
+
+// 删除用户
+function deleteUser(userId, ev) {
+  ev.stopPropagation();
+  const user = getUsersRegistry().find(u => u.userId === userId);
+  if (!confirm('确认删除用户"' + (user?.username || '') + '"？该用户的做题记录、错题、统计都会被清除，且不可恢复！')) return;
+  const registry = getUsersRegistry().filter(u => u.userId !== userId);
+  RAW_saveData('users_registry', registry);
+  // 清理用户私有数据
+  ['seq_progress', 'wrong_questions', 'exam_history', 'user_stats'].forEach(k => {
+    try { localStorage.removeItem(userId + '_' + k); } catch(e) {}
+  });
+  // 如果删的是当前用户，重新取第一个或新建游客
+  if (RAW_loadData('current_user_id', null) === userId) {
+    if (registry.length > 0) RAW_saveData('current_user_id', registry[0].userId);
+    else RAW_saveData('current_user_id', null); // getCurrentUserId() 会自动创建游客
+  }
+  showToast('已删除');
+  renderUserList();
+  renderHomeUserBar();
+}
+
+// ---------- 3. 页面渲染：用户栏 + 用户中心 ----------
+function renderHomeUserBar() {
+  const bar = document.getElementById('homeUserBar');
+  if (!bar) return;
+  const user = getCurrentUser();
+  if (!user) { bar.innerHTML = ''; return; }
+  const stats = getUserStats(user.userId);
+  const rate = stats.totalAnswered > 0 ? Math.round(stats.totalCorrect / stats.totalAnswered * 100) : 0;
+  bar.innerHTML = `
+    <div class="ub-left">
+      <div class="avatar">${userInitial(user.username)}</div>
+      <div class="ub-info">
+        <div class="ub-name">${user.username}${user.isGuest ? ' <span style="color:#999;font-size:12px;font-weight:normal;">(游客·点我注册)</span>' : ''}</div>
+        <div class="ub-sub">📱 ${maskPhone(user.phone)} · 📖 已做 ${stats.totalAnswered} 题 · 🎯 正确率 ${rate}% · 📝 错题 ${stats.wrongCount}</div>
+      </div>
+    </div>
+    <button class="ub-btn ${user.isGuest ? 'primary' : ''}" onclick="goToPage('user')">${user.isGuest ? '立即注册' : '切换账号'}</button>
+  `;
+}
+
+function renderUserList() {
+  const box = document.getElementById('userList');
+  if (!box) return;
+  const list = getUsersRegistry();
+  const curId = RAW_loadData('current_user_id', null);
+  if (list.length === 0) { box.innerHTML = '<div class="rank-empty"><div class="emoji">👥</div>暂无注册用户，请先在上方注册</div>'; return; }
+
+  // 按最近活跃排序（有统计的先排），然后再按注册时间
+  const sorted = [...list].sort((a, b) => {
+    const sa = getUserStats(a.userId); const sb = getUserStats(b.userId);
+    if ((sb.lastActive || 0) !== (sa.lastActive || 0)) return (sb.lastActive || 0) - (sa.lastActive || 0);
+    return new Date(b.registeredAt) - new Date(a.registeredAt);
+  });
+
+  box.innerHTML = sorted.map(u => {
+    const s = getUserStats(u.userId);
+    const rate = s.totalAnswered > 0 ? Math.round(s.totalCorrect/s.totalAnswered*100) : 0;
+    const active = u.userId === curId;
+    const guestTag = u.isGuest ? '<span style="font-size:11px;color:#999;margin-left:6px;">游客</span>' : '';
+    return `
+      <div class="user-item ${active?'active':''}" onclick="loginUser('${u.userId}')">
+        <div class="u-avatar">${userInitial(u.username)}</div>
+        <div class="u-info">
+          <div class="u-name">${u.username}${guestTag}${active?'<span class="u-tag" style="margin-left:6px;">当前</span>':''}</div>
+          <div class="u-phone">📱 ${maskPhone(u.phone)}</div>
+          <div class="u-stats">📖 ${s.totalAnswered}题 · 🎯 ${rate}% · 📝 ${s.wrongCount}错 · 🏅 ${computeCompositeScore(s)}分</div>
+        </div>
+        ${!u.isGuest ? `<button class="u-del" onclick="deleteUser('${u.userId}',event)" title="删除用户">🗑️</button>` : ''}
+      </div>`;
+  }).join('');
+}
+
+function initUserPage() {
+  document.getElementById('pageTitle').textContent = '用户中心';
+  document.getElementById('pageSubtitle').textContent = '注册账号、切换登录，学习数据与你同行';
+  renderUserList();
+}
+
+// ---------- 4. 用户统计（每次做题时累计更新） ----------
+function STATS_KEY(uid) { return uid + '_user_stats'; }
+function getUserStats(userId) {
+  const uid = userId || getCurrentUserId();
+  const def = { userId: uid, totalAnswered: 0, totalCorrect: 0, wrongCount: 0, examCount: 0, correctRatePoints: 0, lastActive: Date.now() };
+  const raw = RAW_loadData(STATS_KEY(uid), null);
+  if (!raw) return def;
+  // 同步当前错题实际数量（避免统计与真实不一致）
+  const actualWrong = RAW_loadData(uid + '_wrong_questions', []);
+  raw.wrongCount = actualWrong.length;
+  raw.userId = uid;
+  return Object.assign(def, raw);
+}
+function saveUserStats(stats) {
+  stats.lastActive = Date.now();
+  RAW_saveData(STATS_KEY(stats.userId), stats);
+}
+
+// 答完一题调用：correct=true/false, wasWrongAdded=true/false
+function updateUserStatsOnAnswer(correct, wasWrongAdded, wasWrongRemoved) {
+  const stats = getUserStats();
+  stats.totalAnswered += 1;
+  if (correct) stats.totalCorrect += 1;
+  if (wasWrongAdded) stats.wrongCount += 1;
+  if (wasWrongRemoved && stats.wrongCount > 0) stats.wrongCount -= 1;
+  // 正确率加成：每答对1题且当前总正确率 >=70% 加 0.5 分
+  const rate = stats.totalAnswered >= 10 ? stats.totalCorrect / stats.totalAnswered : 0;
+  if (correct && rate >= 0.7) stats.correctRatePoints = (stats.correctRatePoints || 0) + 0.5;
+  saveUserStats(stats);
+}
+// 考完一次模拟考试调用
+function updateUserStatsOnExam() {
+  const stats = getUserStats();
+  stats.examCount += 1;
+  saveUserStats(stats);
+}
+
+// ---------- 5. 排行榜计算与渲染 ----------
+const RANK_TAB = { current: 'composite' };
+
+// 综合得分：鼓励多做题 + 高正确率
+function computeCompositeScore(s) {
+  const answered = s.totalAnswered || 0;
+  const correct = s.totalCorrect || 0;
+  const rateBonus = (s.correctRatePoints || 0) * 2;
+  const examBonus = (s.examCount || 0) * 10;
+  return Math.round(answered * 1 + correct * 1 + rateBonus + examBonus);
+}
+
+// 汇总所有用户的排行榜数据（本机用户池 + 导入的静态快照，按手机号合并去重）
+function computeRankList() {
+  const localUsers = getUsersRegistry();
+  const staticData = RAW_loadData('static_rank_data', []);
+  const map = new Map(); // key: phone or userId_fallback
+
+  const addUser = (u, stats, source) => {
+    const key = u.phone ? ('p_' + u.phone) : ('id_' + u.userId);
+    const entry = map.get(key) || {
+      userId: u.userId,
+      username: u.username,
+      phone: u.phone || '',
+      isGuest: !!u.isGuest,
+      totalAnswered: 0, totalCorrect: 0, wrongCount: 0, examCount: 0
+    };
+    entry.username = entry.username || u.username;
+    entry.phone = entry.phone || u.phone || '';
+    entry.totalAnswered = Math.max(entry.totalAnswered, stats.totalAnswered || 0);
+    entry.totalCorrect = Math.max(entry.totalCorrect, stats.totalCorrect || 0);
+    entry.wrongCount = source === 'static'
+      ? (stats.wrongCount ?? entry.wrongCount)
+      : Math.max(entry.wrongCount, stats.wrongCount || 0);
+    entry.examCount = Math.max(entry.examCount, stats.examCount || 0);
+    entry.composite = computeCompositeScore({
+      totalAnswered: entry.totalAnswered,
+      totalCorrect: entry.totalCorrect,
+      correctRatePoints: (stats.correctRatePoints || (stats.totalAnswered>=10 && (entry.totalCorrect/entry.totalAnswered)>=0.7 ? entry.totalCorrect*0.5 : 0)),
+      examCount: entry.examCount
+    });
+    entry.correctRate = entry.totalAnswered > 0 ? entry.totalCorrect / entry.totalAnswered : 0;
+    map.set(key, entry);
+  };
+
+  // 本地用户
+  localUsers.forEach(u => addUser(u, getUserStats(u.userId), 'local'));
+  // 静态导入的排行榜（管理员汇总导出后部署）
+  staticData.forEach(item => addUser(
+    { userId: 's_' + (item.phone || item.username), username: item.username, phone: item.phone || '' },
+    {
+      totalAnswered: item.totalAnswered,
+      totalCorrect: item.totalCorrect,
+      wrongCount: item.wrongCount,
+      examCount: item.examCount,
+      correctRatePoints: item.compositeScore || 0
+    },
+    'static'
+  ));
+
+  const tab = RANK_TAB.current;
+  const arr = Array.from(map.values());
+  // 过滤纯游客且零数据的
+  const filtered = arr.filter(e => !(e.isGuest && e.totalAnswered === 0));
+
+  switch (tab) {
+    case 'answered':   filtered.sort((a,b) => b.totalAnswered - a.totalAnswered); break;
+    case 'correctRate':filtered.sort((a,b) => (b.totalAnswered>=10?b.correctRate:-1) - (a.totalAnswered>=10?a.correctRate:-1)); break;
+    case 'wrong':      filtered.sort((a,b) => b.wrongCount - a.wrongCount); break;
+    default:           filtered.sort((a,b) => b.composite - a.composite);
+  }
+  return filtered;
+}
+
+function switchRankTab(tab) {
+  RANK_TAB.current = tab;
+  document.querySelectorAll('.rank-tab').forEach(el => {
+    el.classList.toggle('active', el.dataset.tab === tab);
+  });
+  renderRankList();
+}
+
+function renderRankList() {
+  const list = document.getElementById('rankList');
+  if (!list) return;
+  const sub = document.getElementById('rankBannerSub');
+  const tab = RANK_TAB.current;
+  const bannerText = {
+    composite:   '综合得分 = 已做题数 + 答对数 + 高正确率加成 + 考试次数加成',
+    answered:    '按累计做题量从高到低排序（含顺序练习+模拟考试+错题练习）',
+    correctRate: '按正确率从高到低排序（仅统计做题数≥10题的用户）',
+    wrong:       '按当前错题本数量从多到少排序，鼓励大家冲刺复习错题！'
+  };
+  if (sub) sub.textContent = bannerText[tab] || '';
+
+  const rows = computeRankList();
+  if (rows.length === 0) {
+    list.innerHTML = `
+      <div class="rank-empty">
+        <div class="emoji">📊</div>
+        <div><b>暂无排行榜数据</b></div>
+        <div class="hint">先在「用户中心」注册账号开始做题，<br>或点击右上角「导入」导入管理员汇总的榜单。</div>
+      </div>`;
+    return;
+  }
+
+  const curId = RAW_loadData('current_user_id', null);
+  const curUser = getCurrentUser();
+  const curPhone = curUser?.phone || '';
+
+  list.innerHTML = rows.map((e, idx) => {
+    const rank = idx + 1;
+    const topCls = rank === 1 ? 'top1 top3' : rank === 2 ? 'top2 top3' : rank === 3 ? 'rank3 top3' : '';
+    const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
+    const me = (curId && e.userId === curId) || (curPhone && e.phone && e.phone === curPhone);
+    let score, scoreLabel, subText;
+    switch (tab) {
+      case 'answered':
+        score = e.totalAnswered; scoreLabel = '题';
+        subText = `正确${e.totalCorrect} · 错题${e.wrongCount} · 正确率${Math.round(e.correctRate*100)}%`;
+        break;
+      case 'correctRate':
+        score = (e.totalAnswered >= 10 ? Math.round(e.correctRate*100) : '—'); scoreLabel = (e.totalAnswered >= 10 ? '%' : '');
+        subText = e.totalAnswered >= 10 ? `共做${e.totalAnswered}题 · 正确${e.totalCorrect}` : `需满10题才进入正确率榜 (当前${e.totalAnswered})`;
+        break;
+      case 'wrong':
+        score = e.wrongCount; scoreLabel = '道';
+        subText = `已做${e.totalAnswered}题 · 正确${e.totalCorrect} · 正确率${Math.round(e.correctRate*100)}%`;
+        break;
+      default:
+        score = e.composite; scoreLabel = '分';
+        subText = `📖${e.totalAnswered}题 · 🎯${Math.round(e.correctRate*100)}% · 📝${e.wrongCount}错 · 🎫${e.examCount}次考试`;
+    }
+    return `
+      <div class="rank-item ${topCls}">
+        <div class="rank-no">${medal}</div>
+        <div class="r-avatar">${userInitial(e.username)}</div>
+        <div class="r-info">
+          <div class="r-name">${e.username}${e.isGuest?' <span style="color:#999;font-size:11px;font-weight:normal;">(游客)</span>':''}${me?' <span class="me-tag">我</span>':''}</div>
+          <div class="r-sub">${subText}</div>
+        </div>
+        <div class="rank-score">
+          <div class="rs-num">${score}</div>
+          <div class="rs-unit">${scoreLabel}</div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+// 导出排行榜：管理员把导出的 JSON 上传替换 static_rank_data 后部署 GitHub Pages 即可全员可见
+function exportRankData() {
+  const list = computeRankList().map(e => ({
+    username: e.username, phone: e.phone || '',
+    totalAnswered: e.totalAnswered, totalCorrect: e.totalCorrect,
+    wrongCount: e.wrongCount, examCount: e.examCount,
+    compositeScore: e.composite, correctRate: Math.round(e.correctRate*10000)/10000,
+    exportAt: new Date().toISOString()
+  }));
+  const blob = new Blob([JSON.stringify(list, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = '党务知识排行榜_' + new Date().toISOString().slice(0,10).replace(/-/g,'') + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('✅ 排行榜已导出，请发送给管理员汇总后部署');
+}
+
+// 导入排行榜：合并到 static_rank_data，下次排行榜就会显示
+function importRankData(ev) {
+  const file = ev.target.files?.[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const arr = JSON.parse(e.target.result);
+      if (!Array.isArray(arr)) throw new Error('格式错误');
+      const cur = RAW_loadData('static_rank_data', []);
+      // 简单合并，后面的覆盖前面的（按 phone 去重）
+      const map = new Map();
+      [...cur, ...arr].forEach(item => {
+        const k = item.phone || ('n_' + item.username);
+        map.set(k, Object.assign(map.get(k) || {}, item));
+      });
+      RAW_saveData('static_rank_data', Array.from(map.values()));
+      showToast('🎉 成功导入 ' + arr.length + ' 条排行榜数据');
+      renderRankList();
+    } catch (err) {
+      showToast('❌ 导入失败：' + (err.message || '文件格式不正确'));
+    }
+  };
+  reader.readAsText(file);
+  ev.target.value = '';
+}
+
+function initRankPage() {
+  document.getElementById('pageTitle').textContent = '排行榜';
+  document.getElementById('pageSubtitle').textContent = '多维度学习排名，比学赶帮超';
+  // 默认 tab
+  document.querySelectorAll('.rank-tab').forEach(el => {
+    el.classList.toggle('active', el.dataset.tab === RANK_TAB.current);
+  });
+  renderRankList();
+}
+
 // 获取分类列表
 function getCategories() {
   const cats = new Set();
@@ -861,6 +1503,8 @@ function goToPage(page) {
     'exam': { title: '模拟考试', sub: '50题 · 满分100分', back: true },
     'result': { title: '考试结果', sub: '', back: true },
     'upload': { title: '题库管理', sub: '上传或管理题库文件', back: true },
+    'user': { title: '用户中心', sub: '注册账号 切换登录', back: true },
+    'rank': { title: '排行榜', sub: '比学赶帮超 争做好学员', back: true },
   };
   const cfg = titles[page] || titles['home'];
   $('pageTitle').textContent = cfg.title;
@@ -874,6 +1518,8 @@ function goToPage(page) {
   if (page === 'wrong') initWrongPage();
   if (page === 'exam') initExamPage();
   if (page === 'upload') initUploadPage();
+  if (page === 'user') initUserPage();
+  if (page === 'rank') initRankPage();
 }
 
 function goBack() {
@@ -893,6 +1539,7 @@ function updateHomeStats() {
   $('wrongCount').textContent = wrong.length;
   const exams = loadData('exam_history', []);
   $('examCount').textContent = exams.length;
+  renderHomeUserBar(); // 渲染用户状态条
 }
 
 // ============ 顺序刷题 ============
@@ -1046,8 +1693,8 @@ function selectSeqOption(label) {
       // 从错题集移除
       const wrong = loadData('wrong_questions', []);
       saveData('wrong_questions', wrong.filter(w => w.id !== q.id));
-      // 800ms后自动跳下一题
-      setTimeout(() => nextSequential(), 800);
+      // 300ms后自动跳下一题
+      setTimeout(() => nextSequential(), 500);
     } else {
       // 答错：调用确认逻辑显示错误状态和解析
       confirmSequential();
@@ -1095,24 +1742,28 @@ function confirmSequential() {
   saveData('seq_progress', seq);
 
   // 记录错题
+  let wasWrongAdded = false, wasWrongRemoved = false;
   if (!correct) {
     const wrong = loadData('wrong_questions', []);
     if (!wrong.find(w => w.id === q.id)) {
       wrong.push(q);
       saveData('wrong_questions', wrong);
+      wasWrongAdded = true;
     }
   } else {
-    // 答对了就从错题集移除
     const wrong = loadData('wrong_questions', []);
     const filtered = wrong.filter(w => w.id !== q.id);
     saveData('wrong_questions', filtered);
+    wasWrongRemoved = filtered.length !== wrong.length;
   }
+  // 用户统计累加
+  updateUserStatsOnAnswer(correct, wasWrongAdded, wasWrongRemoved);
 
   // 按钮切换
   $('seqConfirmBtn').style.display = 'none';
   if (correct) {
-    // 答对：800ms后自动跳下一题
-    setTimeout(() => nextSequential(), 800);
+    // 答对：500ms后自动跳下一题（判断题会先展示解析）
+    setTimeout(() => nextSequential(), 500);
   } else {
     // 答错：显示"下一题"按钮
     $('seqNextBtn').style.display = 'block';
@@ -1286,17 +1937,22 @@ function selectWpOption(label) {
     const correct = isCorrect(q, label);
 
     if (correct) {
-      // 答对：显示绿色正确状态，短暂延迟后自动跳下一题
-      wpState.answered = true;
-      document.querySelectorAll('#wpOptions .option').forEach(el => {
-        el.classList.add('disabled');
-        if (q.answer.includes(el.dataset.label)) el.classList.add('correct');
-      });
-      // 答对则从错题集移除
-      const wrong = loadData('wrong_questions', []);
-      saveData('wrong_questions', wrong.filter(w => w.id !== q.id));
-      // 800ms后自动跳下一题
-      setTimeout(() => nextWrongPractice(), 800);
+      if (q.type === 'judge') {
+        // 判断题答对：走确认逻辑以显示解析，确认逻辑内会自动跳转
+        confirmWrongPractice();
+      } else {
+        // 单选题答对：显示绿色正确状态，500ms后自动跳下一题
+        wpState.answered = true;
+        document.querySelectorAll('#wpOptions .option').forEach(el => {
+          el.classList.add('disabled');
+          if (q.answer.includes(el.dataset.label)) el.classList.add('correct');
+        });
+        // 答对则从错题集移除
+        const wrong = loadData('wrong_questions', []);
+        saveData('wrong_questions', wrong.filter(w => w.id !== q.id));
+        // 500ms后自动跳下一题
+        setTimeout(() => nextWrongPractice(), 500);
+      }
     } else {
       // 答错：调用确认逻辑显示错误状态和解析
       confirmWrongPractice();
@@ -1329,16 +1985,20 @@ function confirmWrongPractice() {
   $('wpExplanation').classList.add('show');
 
   // 答对则从错题集移除
+  let wasWrongRemoved = false;
   if (correct) {
     const wrong = loadData('wrong_questions', []);
     const filtered = wrong.filter(w => w.id !== q.id);
     saveData('wrong_questions', filtered);
+    wasWrongRemoved = filtered.length !== wrong.length;
   }
+  // 用户统计累加（错题练习中的题目均已在错题本，答错不会重复加入）
+  updateUserStatsOnAnswer(correct, false, wasWrongRemoved);
 
   $('wpConfirmBtn').style.display = 'none';
   if (correct) {
-    // 答对：800ms后自动跳下一题
-    setTimeout(() => nextWrongPractice(), 800);
+    // 答对：500ms后自动跳下一题（判断题会先展示解析）
+    setTimeout(() => nextWrongPractice(), 500);
   } else {
     // 答错：显示"下一题"按钮
     $('wpNextBtn').style.display = 'block';
@@ -1588,16 +2248,30 @@ function submitExam() {
   });
   saveData('exam_history', history);
 
+  // 用户统计：累加本次考试中每道有作答的题目
+  details.forEach(d => {
+    if (d.userAns) updateUserStatsOnAnswer(d.correct, false, false);
+  });
+  updateUserStatsOnExam(); // 模拟考试次数+1
+
   // 把错题加入错题集
   const wrongQs = details.filter(d => !d.correct && d.userAns).map(d => d.q);
   if (wrongQs.length > 0) {
     const existingWrong = loadData('wrong_questions', []);
+    let added = 0;
     wrongQs.forEach(q => {
       if (!existingWrong.find(w => w.id === q.id)) {
         existingWrong.push(q);
+        added++;
       }
     });
     saveData('wrong_questions', existingWrong);
+    // 同步用户统计的错题数（刚新增的错题，而 getUserStats 内部实际也会每次同步，这里显式更新一次避免延迟）
+    if (added > 0) {
+      const stats = getUserStats();
+      stats.wrongCount = existingWrong.length;
+      saveUserStats(stats);
+    }
   }
 
   // 渲染结果
