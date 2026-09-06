@@ -11,7 +11,7 @@ window.QUESTIONS = [
       "C. 反腐倡廉"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（全面从严治党）。"
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@ window.QUESTIONS = [
       "C. 党的纪律检查委员会"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（党的机关工委）。"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@ window.QUESTIONS = [
       "C. 具体执行机关"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（具体执行机关）。"
   },
   {
     "id": 4,
@@ -50,7 +50,7 @@ window.QUESTIONS = [
       "C. 组织建设"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为A（政治建设）。"
   },
   {
     "id": 5,
@@ -63,7 +63,7 @@ window.QUESTIONS = [
       "C. 专题组织生活会"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（专题民主生活会）。"
   },
   {
     "id": 6,
@@ -76,7 +76,7 @@ window.QUESTIONS = [
       "C. 民主生活会"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（民主生活会）。"
   },
   {
     "id": 7,
@@ -89,7 +89,7 @@ window.QUESTIONS = [
       "C. 约谈"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（提醒谈话）。"
   },
   {
     "id": 8,
@@ -102,7 +102,7 @@ window.QUESTIONS = [
       "C. 指导"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（协助）。"
   },
   {
     "id": 9,
@@ -115,7 +115,7 @@ window.QUESTIONS = [
       "C. 专责机构"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（专责机构）。"
   },
   {
     "id": 10,
@@ -128,7 +128,7 @@ window.QUESTIONS = [
       "C. 问题清单"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为B（责任清单）。"
   },
   {
     "id": 11,
@@ -141,7 +141,7 @@ window.QUESTIONS = [
       "C. 批准其设立的党组织"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（批准其设立的党组织）。"
   },
   {
     "id": 12,
@@ -154,7 +154,7 @@ window.QUESTIONS = [
       "C. 两个维护"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（两个维护）。"
   },
   {
     "id": 13,
@@ -168,7 +168,7 @@ window.QUESTIONS = [
       "D. 正风肃纪反腐凝聚党心军心民心"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为ABCD。具体包括：A.伟大自我革命引领伟大社会革命；B.科学理论引领全党理想信念；C.“两个维护”引领全党团结统一；D.正风肃纪反腐凝聚党心军心民心。"
   },
   {
     "id": 14,
@@ -182,7 +182,7 @@ window.QUESTIONS = [
       "D. 坚持全面从严治党过程和效果相统一"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为ABCD。具体包括：A.坚持紧紧围绕加强和改善党的全面领导；B.坚持全面从严治党各领域各方面各环节全覆盖；C.坚持真管真严、敢管敢严、长管长严；D.坚持全面从严治党过程和效果相统一。"
   },
   {
     "id": 15,
@@ -195,7 +195,7 @@ window.QUESTIONS = [
       "C. 经济社会发展"
     ],
     "answer": "AB",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为AB。具体包括：A.党建工作；B.业务工作。"
   },
   {
     "id": 16,
@@ -208,7 +208,7 @@ window.QUESTIONS = [
       "C. 保落实"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为ABC。具体包括：A.把方向；B.管大局；C.保落实。"
   },
   {
     "id": 17,
@@ -223,7 +223,7 @@ window.QUESTIONS = [
       "E. 特权现象"
     ],
     "answer": "ABDE",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为ABDE。具体包括：A.形式主义；B.官僚主义；D.特权思想；E.特权现象。"
   },
   {
     "id": 18,
@@ -236,7 +236,7 @@ window.QUESTIONS = [
       "C. 作风建设"
     ],
     "answer": "AB",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AB。具体包括：A.政治纪律；B.组织纪律。"
   },
   {
     "id": 19,
@@ -250,7 +250,7 @@ window.QUESTIONS = [
       "D. 基层党组织和群众"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《党委（党组）落实全面从严治党主体责任规定》的相关规定，本题正确答案为ABCD。具体包括：A.党的代表大会代表；B.党员；C.干部；D.基层党组织和群众。"
   },
   {
     "id": 20,
@@ -312,7 +312,7 @@ window.QUESTIONS = [
       "D. 负面清单、面向党员领导干部"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党廉洁自律准则》的相关规定，本题正确答案为A（正面倡导、面向全体党员）。"
   },
   {
     "id": 25,
@@ -326,7 +326,7 @@ window.QUESTIONS = [
       "D. “8个禁止”“52个不准”"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党廉洁自律准则》的相关规定，本题正确答案为B（“四个必须”“八条规范”）。"
   },
   {
     "id": 26,
@@ -340,7 +340,7 @@ window.QUESTIONS = [
       "D. 领导干部廉洁从政规范"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党廉洁自律准则》的相关规定，本题正确答案为C（党员领导干部廉洁自律规范）。"
   },
   {
     "id": 27,
@@ -354,7 +354,7 @@ window.QUESTIONS = [
       "D. 重在立规"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党廉洁自律准则》的相关规定，本题正确答案为B（重在立德）。"
   },
   {
     "id": 28,
@@ -368,7 +368,7 @@ window.QUESTIONS = [
       "D. 政治本色"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党廉洁自律准则》的相关规定，本题正确答案为A（先进性和纯洁性）。"
   },
   {
     "id": 29,
@@ -382,7 +382,7 @@ window.QUESTIONS = [
       "D. 坚持吃苦在前，享受在后，甘于奉献"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.坚持公私分明，先公后私，克己奉公；B.坚持崇廉拒腐，清白做人，干净做事；C.坚持尚俭戒奢，艰苦朴素，勤俭节约；D.坚持吃苦在前，享受在后，甘于奉献。"
   },
   {
     "id": 30,
@@ -396,7 +396,7 @@ window.QUESTIONS = [
       "D. 廉洁齐家，自觉带头树立良好家风"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.廉洁从政，自觉保持人民公仆本色；B.廉洁用权，自觉维护人民根本利益；C.廉洁修身，自觉提升思想道德境界；D.廉洁齐家，自觉带头树立良好家风。"
   },
   {
     "id": 31,
@@ -409,7 +409,7 @@ window.QUESTIONS = [
       "C. 书记"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为B（党组织领导班子）。"
   },
   {
     "id": 32,
@@ -422,7 +422,7 @@ window.QUESTIONS = [
       "C. 3个月"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为B（1个月）。"
   },
   {
     "id": 33,
@@ -435,7 +435,7 @@ window.QUESTIONS = [
       "C. 责任倒逼机制"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为A（终身问责）。"
   },
   {
     "id": 34,
@@ -449,7 +449,7 @@ window.QUESTIONS = [
       "D. 6个月"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为B（1 个月）。"
   },
   {
     "id": 35,
@@ -462,7 +462,7 @@ window.QUESTIONS = [
       "C. 尽责"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.负责；B.守责；C.尽责。"
   },
   {
     "id": 36,
@@ -475,7 +475,7 @@ window.QUESTIONS = [
       "C. 监督责任"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.主体责任；B.领导责任；C.监督责任。"
   },
   {
     "id": 37,
@@ -489,7 +489,7 @@ window.QUESTIONS = [
       "D. 纪律处分"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为ABCD。具体包括：A.通报；B.诫勉；C.组织调整或者组织处理；D.纪律处分。"
   },
   {
     "id": 38,
@@ -503,7 +503,7 @@ window.QUESTIONS = [
       "D. 解散"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为ABC。具体包括：A.检查；B.通报；C.改组。"
   },
   {
     "id": 39,
@@ -516,7 +516,7 @@ window.QUESTIONS = [
       "C. 党的其他会议上"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据《中国共产党问责条例》的相关规定，本题正确答案为ABC。具体包括：A.民主生活会；B.组织生活会；C.党的其他会议上。"
   },
   {
     "id": 40,
@@ -602,7 +602,7 @@ window.QUESTIONS = [
       "D. 宪法、法律、法规"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党章）。"
   },
   {
     "id": 47,
@@ -616,7 +616,7 @@ window.QUESTIONS = [
       "D. 政治建设"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（政治建设）。"
   },
   {
     "id": 48,
@@ -630,7 +630,7 @@ window.QUESTIONS = [
       "D. 9"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（3）。"
   },
   {
     "id": 49,
@@ -644,7 +644,7 @@ window.QUESTIONS = [
       "D. 100"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（50）。"
   },
   {
     "id": 50,
@@ -658,7 +658,7 @@ window.QUESTIONS = [
       "D. 7"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（5）。"
   },
   {
     "id": 51,
@@ -672,7 +672,7 @@ window.QUESTIONS = [
       "D. 10"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（6）。"
   },
   {
     "id": 52,
@@ -686,7 +686,7 @@ window.QUESTIONS = [
       "D. 流动党员临时党支部"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（流动党员党支部）。"
   },
   {
     "id": 53,
@@ -700,7 +700,7 @@ window.QUESTIONS = [
       "D. 党小组"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（临时党支部）。"
   },
   {
     "id": 54,
@@ -714,7 +714,7 @@ window.QUESTIONS = [
       "D. 人文关怀"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据思想政治工作相关规定的相关规定，本题正确答案为C（意识形态）。"
   },
   {
     "id": 55,
@@ -728,7 +728,7 @@ window.QUESTIONS = [
       "D. 引导性"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（经常性）。"
   },
   {
     "id": 56,
@@ -742,7 +742,7 @@ window.QUESTIONS = [
       "D. 年"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（季度）。"
   },
   {
     "id": 57,
@@ -756,7 +756,7 @@ window.QUESTIONS = [
       "D. 五分之四"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（半数）。"
   },
   {
     "id": 58,
@@ -770,7 +770,7 @@ window.QUESTIONS = [
       "D. 季度"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（月）。"
   },
   {
     "id": 59,
@@ -784,7 +784,7 @@ window.QUESTIONS = [
       "D. 三分之一"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（半数）。"
   },
   {
     "id": 60,
@@ -798,7 +798,7 @@ window.QUESTIONS = [
       "D. 4"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（1）。"
   },
   {
     "id": 61,
@@ -812,7 +812,7 @@ window.QUESTIONS = [
       "D. 2"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（1）。"
   },
   {
     "id": 62,
@@ -826,7 +826,7 @@ window.QUESTIONS = [
       "D. 第四"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（第四）。"
   },
   {
     "id": 63,
@@ -840,7 +840,7 @@ window.QUESTIONS = [
       "D. 党性分析"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（党性分析）。"
   },
   {
     "id": 64,
@@ -854,7 +854,7 @@ window.QUESTIONS = [
       "D. 9"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（7）。"
   },
   {
     "id": 65,
@@ -868,7 +868,7 @@ window.QUESTIONS = [
       "D. 9"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（7）。"
   },
   {
     "id": 66,
@@ -882,7 +882,7 @@ window.QUESTIONS = [
       "D. 9"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（6）。"
   },
   {
     "id": 67,
@@ -896,7 +896,7 @@ window.QUESTIONS = [
       "D. 1个月"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（1年）。"
   },
   {
     "id": 68,
@@ -910,7 +910,7 @@ window.QUESTIONS = [
       "D. 5"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据党支部工作相关规定的相关规定，本题正确答案为A（1）。"
   },
   {
     "id": 69,
@@ -924,7 +924,7 @@ window.QUESTIONS = [
       "D. 市"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据党支部工作相关规定的相关规定，本题正确答案为B（县）。"
   },
   {
     "id": 70,
@@ -938,7 +938,7 @@ window.QUESTIONS = [
       "D. 基本单元"
     ],
     "answer": "BD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BD。具体包括：B.基础组织；D.基本单元。"
   },
   {
     "id": 71,
@@ -952,7 +952,7 @@ window.QUESTIONS = [
       "D. 处分"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.教育；B.管理；C.监督。"
   },
   {
     "id": 72,
@@ -966,7 +966,7 @@ window.QUESTIONS = [
       "D. 不选举党代表大会代表"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.不发展党员；B.处分处置党员；C.不收缴党费；D.不选举党代表大会代表。"
   },
   {
     "id": 73,
@@ -980,7 +980,7 @@ window.QUESTIONS = [
       "D. 组织生活"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.政治教育；B.理想信念；C.党性；D.组织生活。"
   },
   {
     "id": 74,
@@ -994,7 +994,7 @@ window.QUESTIONS = [
       "D. 争先创优"
     ],
     "answer": "AB",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AB。具体包括：A.服务中心；B.建设队伍。"
   },
   {
     "id": 75,
@@ -1008,7 +1008,7 @@ window.QUESTIONS = [
       "D. 自我批评"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.政治学习；B.谈心谈话；C.开展批评；D.自我批评。"
   },
   {
     "id": 76,
@@ -1022,7 +1022,7 @@ window.QUESTIONS = [
       "D. 支部委员会会议"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.党员大会；B.党小组会；C.上党课；D.支部委员会会议。"
   },
   {
     "id": 77,
@@ -1036,7 +1036,7 @@ window.QUESTIONS = [
       "D. 组织考评"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.个人自评；B.党员互评；C.民主测评。"
   },
   {
     "id": 78,
@@ -1050,7 +1050,7 @@ window.QUESTIONS = [
       "D. 科学发展理念"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据党支部工作相关规定的相关规定，本题正确答案为ABC。具体包括：A.政策理论水平；B.组织协调能力；C.群众工作本领。"
   },
   {
     "id": 79,
@@ -1208,7 +1208,7 @@ window.QUESTIONS = [
       "D. 机关党建"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（机关党建）。"
   },
   {
     "id": 92,
@@ -1222,7 +1222,7 @@ window.QUESTIONS = [
       "D. 革命锤炼"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（实践锻炼）。"
   },
   {
     "id": 93,
@@ -1236,7 +1236,7 @@ window.QUESTIONS = [
       "D. 加强调查研究"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（研究解决问题）。"
   },
   {
     "id": 94,
@@ -1250,7 +1250,7 @@ window.QUESTIONS = [
       "D. 引导权"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据意识形态工作相关规定的相关规定，本题正确答案为A（话语权）。"
   },
   {
     "id": 95,
@@ -1264,7 +1264,7 @@ window.QUESTIONS = [
       "D. 实践性"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（实践性）。"
   },
   {
     "id": 96,
@@ -1278,7 +1278,7 @@ window.QUESTIONS = [
       "D. 团结奋斗"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（改革创新）。"
   },
   {
     "id": 97,
@@ -1292,7 +1292,7 @@ window.QUESTIONS = [
       "D. 重安全"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（正能量）。"
   },
   {
     "id": 98,
@@ -1306,7 +1306,7 @@ window.QUESTIONS = [
       "D. 全面从严治党"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（全面从严治党）。"
   },
   {
     "id": 99,
@@ -1320,7 +1320,7 @@ window.QUESTIONS = [
       "D. 信心"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（纪律）。"
   },
   {
     "id": 100,
@@ -1334,7 +1334,7 @@ window.QUESTIONS = [
       "D. 谁主导谁主办"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据意识形态工作相关规定的相关规定，本题正确答案为C（谁主管谁主办）。"
   },
   {
     "id": 101,
@@ -1348,7 +1348,7 @@ window.QUESTIONS = [
       "D. 公信力"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（公信力）。"
   },
   {
     "id": 102,
@@ -1362,7 +1362,7 @@ window.QUESTIONS = [
       "D. 政治教育"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（政治教育）。"
   },
   {
     "id": 103,
@@ -1376,7 +1376,7 @@ window.QUESTIONS = [
       "D. 4"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党党委（党组）理论学习中心组学习规则》的相关规定，本题正确答案为A（1）。"
   },
   {
     "id": 104,
@@ -1390,7 +1390,7 @@ window.QUESTIONS = [
       "D. 服务人民"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（服务群众）。"
   },
   {
     "id": 105,
@@ -1404,7 +1404,7 @@ window.QUESTIONS = [
       "D. 党员义务"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（入党誓词）。"
   },
   {
     "id": 106,
@@ -1418,7 +1418,7 @@ window.QUESTIONS = [
       "D. 年"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（月）。"
   },
   {
     "id": 107,
@@ -1432,7 +1432,7 @@ window.QUESTIONS = [
       "D. 128"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（32）。"
   },
   {
     "id": 108,
@@ -1446,7 +1446,7 @@ window.QUESTIONS = [
       "D. 66"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（56）。"
   },
   {
     "id": 109,
@@ -1460,7 +1460,7 @@ window.QUESTIONS = [
       "D. “不忘初心、牢记使命”"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（“两学一做”）。"
   },
   {
     "id": 110,
@@ -1474,7 +1474,7 @@ window.QUESTIONS = [
       "D. 奋斗"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（奋斗）。"
   },
   {
     "id": 111,
@@ -1488,7 +1488,7 @@ window.QUESTIONS = [
       "D. 为人民服务"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（实事求是）。"
   },
   {
     "id": 112,
@@ -1502,7 +1502,7 @@ window.QUESTIONS = [
       "D. 纪律教育"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（政治教育）。"
   },
   {
     "id": 113,
@@ -1516,7 +1516,7 @@ window.QUESTIONS = [
       "D. 党规"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党性）。"
   },
   {
     "id": 114,
@@ -1530,7 +1530,7 @@ window.QUESTIONS = [
       "D. 所在党组织"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（所在党组织）。"
   },
   {
     "id": 115,
@@ -1544,7 +1544,7 @@ window.QUESTIONS = [
       "D. 制度建设"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为B（政治建设）。"
   },
   {
     "id": 116,
@@ -1558,7 +1558,7 @@ window.QUESTIONS = [
       "D. 中国特色社会主义"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（中国特色社会主义）。"
   },
   {
     "id": 117,
@@ -1572,7 +1572,7 @@ window.QUESTIONS = [
       "D. 正面宣传鼓劲"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（坚定“四个自信”）。"
   },
   {
     "id": 118,
@@ -1586,7 +1586,7 @@ window.QUESTIONS = [
       "D. 创新"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（友善）。"
   },
   {
     "id": 119,
@@ -1600,7 +1600,7 @@ window.QUESTIONS = [
       "D. 批评和自我批评"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（批评和自我批评）。"
   },
   {
     "id": 120,
@@ -1614,7 +1614,7 @@ window.QUESTIONS = [
       "D. 建章立制和落地见效的关系"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.党建和业务的关系；B.目标引领和问题导向的关系；D.建章立制和落地见效的关系。"
   },
   {
     "id": 121,
@@ -1628,7 +1628,7 @@ window.QUESTIONS = [
       "D. 干部职工的贴心人"
     ],
     "answer": "ACD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ACD。具体包括：A.政治上的明白人；C.党建工作的内行人；D.干部职工的贴心人。"
   },
   {
     "id": 122,
@@ -1642,7 +1642,7 @@ window.QUESTIONS = [
       "D. 民族凝聚力和向心力"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据意识形态工作相关规定的相关规定，本题正确答案为BCD。具体包括：B.党的前途命运；C.国家长治久安；D.民族凝聚力和向心力。"
   },
   {
     "id": 123,
@@ -1656,7 +1656,7 @@ window.QUESTIONS = [
       "D. 有利于维护社会稳定"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.有利于坚持中国共产党领导和社会主义制度；B.有利于推动改革发展；C.有利于增进全国各族人民团结；D.有利于维护社会稳定。"
   },
   {
     "id": 124,
@@ -1670,7 +1670,7 @@ window.QUESTIONS = [
       "D. 舆论监督"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.政府管理；B.企业履责；C.社会监督。"
   },
   {
     "id": 125,
@@ -1684,7 +1684,7 @@ window.QUESTIONS = [
       "D. 中国力量"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.中国精神；B.中国价值；D.中国力量。"
   },
   {
     "id": 126,
@@ -1698,7 +1698,7 @@ window.QUESTIONS = [
       "D. 育新人"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AD。具体包括：A.聚民心；D.育新人。"
   },
   {
     "id": 127,
@@ -1712,7 +1712,7 @@ window.QUESTIONS = [
       "D. 督查考核第一内容"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.谋划工作第一步骤；B.落实任务第一要求；D.督查考核第一内容。"
   },
   {
     "id": 128,
@@ -1726,7 +1726,7 @@ window.QUESTIONS = [
       "D. 工作"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.理论；B.实践；C.制度。"
   },
   {
     "id": 129,
@@ -1740,7 +1740,7 @@ window.QUESTIONS = [
       "D. 党员、干部的日常言行上"
     ],
     "answer": "ACD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ACD。具体包括：A.坚决贯彻党中央决策部署的行动上；C.履职尽责、做好本职工作的实效上；D.党员、干部的日常言行上。"
   },
   {
     "id": 130,
@@ -1754,7 +1754,7 @@ window.QUESTIONS = [
       "D. 中华优秀传统文化"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.改革开放史；B.社会主义发展史；D.中华优秀传统文化。"
   },
   {
     "id": 131,
@@ -1768,7 +1768,7 @@ window.QUESTIONS = [
       "D. 把问题摆进去"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.把自己摆进去；B.把职责摆进去；C.把工作摆进去。"
   },
   {
     "id": 132,
@@ -1782,7 +1782,7 @@ window.QUESTIONS = [
       "D. 发现苗头性问题必谈"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《关于加强和改进中央和国家机关党的建设的意见》的相关规定，本题正确答案为ABCD。具体包括：A.岗位变动必谈；B.组织处理必谈；C.发生家庭变故必谈；D.发现苗头性问题必谈。"
   },
   {
     "id": 133,
@@ -1927,7 +1927,7 @@ window.QUESTIONS = [
       "C. 8"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（8）。"
   },
   {
     "id": 145,
@@ -1940,7 +1940,7 @@ window.QUESTIONS = [
       "C. 20岁"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（18岁）。"
   },
   {
     "id": 146,
@@ -1953,7 +1953,7 @@ window.QUESTIONS = [
       "C. 创新"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为B（科学技术）。"
   },
   {
     "id": 147,
@@ -1966,7 +1966,7 @@ window.QUESTIONS = [
       "C. 5年"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（5年）。"
   },
   {
     "id": 148,
@@ -1979,7 +1979,7 @@ window.QUESTIONS = [
       "C. 党组必须设书记和副书记"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（党组设书记，必要时还可以设副书记）。"
   },
   {
     "id": 149,
@@ -1992,7 +1992,7 @@ window.QUESTIONS = [
       "C. 改革"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（建设）。"
   },
   {
     "id": 150,
@@ -2005,7 +2005,7 @@ window.QUESTIONS = [
       "C. 服务和督促"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（引导和监督）。"
   },
   {
     "id": 151,
@@ -2018,7 +2018,7 @@ window.QUESTIONS = [
       "C. 好人主义"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（奢靡之风）。"
   },
   {
     "id": 152,
@@ -2031,7 +2031,7 @@ window.QUESTIONS = [
       "C. 10年"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（5年）。"
   },
   {
     "id": 153,
@@ -2044,7 +2044,7 @@ window.QUESTIONS = [
       "C. 全面从严治党 党的自我革命"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（全面从严治党 党的自我革命）。"
   },
   {
     "id": 154,
@@ -2057,7 +2057,7 @@ window.QUESTIONS = [
       "C. 惩治"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（问责）。"
   },
   {
     "id": 155,
@@ -2070,7 +2070,7 @@ window.QUESTIONS = [
       "C. 社会主义科技强国"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（社会主义文化强国）。"
   },
   {
     "id": 156,
@@ -2083,7 +2083,7 @@ window.QUESTIONS = [
       "C. 作风建设"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（生态文明建设）。"
   },
   {
     "id": 157,
@@ -2096,7 +2096,7 @@ window.QUESTIONS = [
       "C. 全体人民共同富裕"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（中国式现代化）。"
   },
   {
     "id": 158,
@@ -2109,7 +2109,7 @@ window.QUESTIONS = [
       "C. 保护优先、自然恢复为主"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（保护优先、自然恢复为主）。"
   },
   {
     "id": 159,
@@ -2122,7 +2122,7 @@ window.QUESTIONS = [
       "C. 思想建设 政治建设"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为B（政治建设 制度建设）。"
   },
   {
     "id": 160,
@@ -2135,7 +2135,7 @@ window.QUESTIONS = [
       "C. 严重警告"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（开除党籍）。"
   },
   {
     "id": 161,
@@ -2148,7 +2148,7 @@ window.QUESTIONS = [
       "C. 党小组"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党支部）。"
   },
   {
     "id": 162,
@@ -2161,7 +2161,7 @@ window.QUESTIONS = [
       "C. 公平"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（平等）。"
   },
   {
     "id": 163,
@@ -2174,7 +2174,7 @@ window.QUESTIONS = [
       "C. 批评与自我批评"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（密切联系群众）。"
   },
   {
     "id": 164,
@@ -2187,7 +2187,7 @@ window.QUESTIONS = [
       "C. 自我进化"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（自我完善）。"
   },
   {
     "id": 165,
@@ -2200,7 +2200,7 @@ window.QUESTIONS = [
       "C. 党的群众路线"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为A（党的思想路线）。"
   },
   {
     "id": 166,
@@ -2213,7 +2213,7 @@ window.QUESTIONS = [
       "C. 党的省、自治区、直辖市委员会不能直接接收党员"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（在特殊情况下，党的中央委员会可以直接接收党员）。"
   },
   {
     "id": 167,
@@ -2226,7 +2226,7 @@ window.QUESTIONS = [
       "C. 2年或3年"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（3年至5年）。"
   },
   {
     "id": 168,
@@ -2239,7 +2239,7 @@ window.QUESTIONS = [
       "C. 预备期满转为正式党员"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（预备期满转为正式党员）。"
   },
   {
     "id": 169,
@@ -2252,7 +2252,7 @@ window.QUESTIONS = [
       "C. 马克思列宁主义"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为B（毛泽东思想）。"
   },
   {
     "id": 170,
@@ -2265,7 +2265,7 @@ window.QUESTIONS = [
       "C. 六大党章"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（六大党章）。"
   },
   {
     "id": 171,
@@ -2278,7 +2278,7 @@ window.QUESTIONS = [
       "C. 暂缓执行"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（请求改变）。"
   },
   {
     "id": 172,
@@ -2291,7 +2291,7 @@ window.QUESTIONS = [
       "C. 群众口碑 集体吸收"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（政治标准 个别吸收）。"
   },
   {
     "id": 173,
@@ -2304,7 +2304,7 @@ window.QUESTIONS = [
       "C. 政治领导力 多选题："
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（政治领悟力）。"
   },
   {
     "id": 174,
@@ -2318,7 +2318,7 @@ window.QUESTIONS = [
       "D. 坚持敢于斗争"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.坚持党的领导；B.坚持人民至上；D.坚持敢于斗争。"
   },
   {
     "id": 175,
@@ -2332,7 +2332,7 @@ window.QUESTIONS = [
       "D. 选举中央委员会"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.听取和审查中央委员会的报告；B.讨论并决定党的重大问题；C.修改党的章程；D.选举中央委员会。"
   },
   {
     "id": 176,
@@ -2346,7 +2346,7 @@ window.QUESTIONS = [
       "D. 事业单位"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为AD。具体包括：A.国有企业；D.事业单位。"
   },
   {
     "id": 177,
@@ -2360,7 +2360,7 @@ window.QUESTIONS = [
       "D. 监督党员干部和其他任何工作人员严格遵守国家法律法规"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.推进党史学习教育常态化制度化；C.对党员进行教育、管理、监督和服务，提高党员素质，坚定理想信念，增强党性；D.监督党员干部和其他任何工作人员严格遵守国家法律法规。"
   },
   {
     "id": 178,
@@ -2374,7 +2374,7 @@ window.QUESTIONS = [
       "D. 国内发展和对外开放"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.经济社会发展；C.人与自然和谐发展；D.国内发展和对外开放。"
   },
   {
     "id": 179,
@@ -2388,7 +2388,7 @@ window.QUESTIONS = [
       "D. 稳定性转化"
     ],
     "answer": "BC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BC。具体包括：B.创造性转化；C.创新性发展。"
   },
   {
     "id": 180,
@@ -2402,7 +2402,7 @@ window.QUESTIONS = [
       "D. 政治执行力"
     ],
     "answer": "ACD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ACD。具体包括：A.政治判断力；C.政治领悟力；D.政治执行力。"
   },
   {
     "id": 181,
@@ -2416,7 +2416,7 @@ window.QUESTIONS = [
       "D. 在实践中检验真理和发展真理"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.全面贯彻习近平新时代中国特色社会主义思想；B.以组织体系建设为重点；C.着力培养忠诚干净担当的高素质干部。"
   },
   {
     "id": 182,
@@ -2430,7 +2430,7 @@ window.QUESTIONS = [
       "D. 基层群众自治制度"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.人民代表大会制度；B.中国共产党领导的多党合作和政治协商制度；C.民族区域自治制度；D.基层群众自治制度。"
   },
   {
     "id": 183,
@@ -2444,7 +2444,7 @@ window.QUESTIONS = [
       "D. 支部委员会"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.基层委员会；B.总支部委员会；D.支部委员会。"
   },
   {
     "id": 184,
@@ -2458,7 +2458,7 @@ window.QUESTIONS = [
       "D. 坚决维护党中央权威和集中统一领导"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AD。具体包括：A.坚决维护习近平同志党中央的核心、全党的核心地位；D.坚决维护党中央权威和集中统一领导。"
   },
   {
     "id": 185,
@@ -2472,7 +2472,7 @@ window.QUESTIONS = [
       "D. 创新型"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.学习型；C.服务型；D.创新型。"
   },
   {
     "id": 186,
@@ -2486,7 +2486,7 @@ window.QUESTIONS = [
       "D. 能力标准"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（政治标准）。"
   },
   {
     "id": 187,
@@ -2500,7 +2500,7 @@ window.QUESTIONS = [
       "D. 市直机关工委"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党入党志愿书》的相关规定，本题正确答案为A（省级党委组织部门）。"
   },
   {
     "id": 188,
@@ -2514,7 +2514,7 @@ window.QUESTIONS = [
       "D. 户籍所在地党组织"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（流动党员党组织）。"
   },
   {
     "id": 189,
@@ -2528,7 +2528,7 @@ window.QUESTIONS = [
       "D. 六个月"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（一个月）。"
   },
   {
     "id": 190,
@@ -2542,7 +2542,7 @@ window.QUESTIONS = [
       "D. 党外推荐"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（群团组织推优）。"
   },
   {
     "id": 191,
@@ -2556,7 +2556,7 @@ window.QUESTIONS = [
       "D. 支部委员会，不设支部委员会的由支部大会"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（支部委员会，不设支部委员会的由支部大会）。"
   },
   {
     "id": 192,
@@ -2570,7 +2570,7 @@ window.QUESTIONS = [
       "D. 两至三名"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（一至两名）。"
   },
   {
     "id": 193,
@@ -2584,7 +2584,7 @@ window.QUESTIONS = [
       "D. 每年"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（每半年）。"
   },
   {
     "id": 194,
@@ -2598,7 +2598,7 @@ window.QUESTIONS = [
       "D. 思想表现"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（一贯表现）。"
   },
   {
     "id": 195,
@@ -2612,7 +2612,7 @@ window.QUESTIONS = [
       "D. 党组"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（基层党委）。"
   },
   {
     "id": 196,
@@ -2626,7 +2626,7 @@ window.QUESTIONS = [
       "D. 六个月"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（三个月）。"
   },
   {
     "id": 197,
@@ -2640,7 +2640,7 @@ window.QUESTIONS = [
       "D. 五分之四"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（半数）。"
   },
   {
     "id": 198,
@@ -2654,7 +2654,7 @@ window.QUESTIONS = [
       "D. 六个月内"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（三个月内）。"
   },
   {
     "id": 199,
@@ -2668,7 +2668,7 @@ window.QUESTIONS = [
       "D. 党中央组织部门"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（省一级党委）。"
   },
   {
     "id": 200,
@@ -2682,7 +2682,7 @@ window.QUESTIONS = [
       "D. 三年"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（一年）。"
   },
   {
     "id": 201,
@@ -2696,7 +2696,7 @@ window.QUESTIONS = [
       "D. 不能少于半年，最长不超过二年"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（不能少于半年，最长不超过一年）。"
   },
   {
     "id": 202,
@@ -2710,7 +2710,7 @@ window.QUESTIONS = [
       "D. 根据上级党委的批准决定来确定党龄的起算日期"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（从预备期满转为正式党员之日起算）。"
   },
   {
     "id": 203,
@@ -2724,7 +2724,7 @@ window.QUESTIONS = [
       "D. 上级党委组织部门备案之日"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（党支部党员大会通过其为预备党员之日）。"
   },
   {
     "id": 204,
@@ -2738,7 +2738,7 @@ window.QUESTIONS = [
       "D. 报上级党委备案"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（支部委员会审查）。"
   },
   {
     "id": 205,
@@ -2752,7 +2752,7 @@ window.QUESTIONS = [
       "D. 不少于七天或不少于56学时"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（不少于三天或不少于24学时）。"
   },
   {
     "id": 206,
@@ -2766,7 +2766,7 @@ window.QUESTIONS = [
       "D. 党委会"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（支部党员大会）。"
   },
   {
     "id": 207,
@@ -2780,7 +2780,7 @@ window.QUESTIONS = [
       "D. 三年"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（一年）。"
   },
   {
     "id": 208,
@@ -2794,7 +2794,7 @@ window.QUESTIONS = [
       "D. 半年"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（三个月）。"
   },
   {
     "id": 209,
@@ -2808,7 +2808,7 @@ window.QUESTIONS = [
       "D. 党委书记"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（党支部书记）。"
   },
   {
     "id": 210,
@@ -2822,7 +2822,7 @@ window.QUESTIONS = [
       "D. 两至三名"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（两名）。"
   },
   {
     "id": 211,
@@ -2836,7 +2836,7 @@ window.QUESTIONS = [
       "D. 发挥作用"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.控制总量；B.优化结构；C.提高质量；D.发挥作用。"
   },
   {
     "id": 212,
@@ -2850,7 +2850,7 @@ window.QUESTIONS = [
       "D. 深刻领悟“两个确立”的决定性意义"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.马克思主义信仰；B.共产主义觉悟和中国特色社会主义信念；C.增强“四个意识”、坚定“四个自信”、做到“两个维护”；D.深刻领悟“两个确立”的决定性意义。"
   },
   {
     "id": 213,
@@ -2864,7 +2864,7 @@ window.QUESTIONS = [
       "D. 深入细致的思想政治工作"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AD。具体包括：A.宣传党的政治主张；D.深入细致的思想政治工作。"
   },
   {
     "id": 214,
@@ -2878,7 +2878,7 @@ window.QUESTIONS = [
       "D. 新兴社会阶层"
     ],
     "answer": "AC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AC。具体包括：A.知识分子；C.其他社会阶层。"
   },
   {
     "id": 215,
@@ -2892,7 +2892,7 @@ window.QUESTIONS = [
       "D. 党员推荐"
     ],
     "answer": "BD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BD。具体包括：B.群团组织推优；D.党员推荐。"
   },
   {
     "id": 216,
@@ -2907,7 +2907,7 @@ window.QUESTIONS = [
       "E. 引导其深入学习领会习近平新时代中国特色社会主义思想"
     ],
     "answer": "ABCDE",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCDE。具体包括：A.向入党积极分子介绍和阐释共产党人的信仰信念，介绍党的基本知识；B.经常谈心谈话，了解入党积极分子的政治觉悟、道德品质、现实表现和家庭情况等，做好培养教育工作，引导入党积极分子端正入党动机；C.及时向党支部汇报入党积极分子情况，在《入党积极分子培养考察登记表》上认真填写自己的意见；D.向党支部提出能否将入党积极分子列为发展对象的意见；E.引导其深入学习领会习近平新时代中国特色社会主义思想。"
   },
   {
     "id": 217,
@@ -2921,7 +2921,7 @@ window.QUESTIONS = [
       "D. 给他们分配一定的社会工作"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.吸收入党积极分子听党课；B.参加党内有关活动；C.集中培训；D.给他们分配一定的社会工作。"
   },
   {
     "id": 218,
@@ -2935,7 +2935,7 @@ window.QUESTIONS = [
       "D. 家庭主要成员和重要社会关系的政治情况"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.对党的理论和路线、方针、政策的态度。政治历史和在重大政治斗争、急难险重中的表现；B.坚定马克思主要信仰、共产主义觉悟和中国特色社会主义信念的情况；深刻领悟“两个确立”的决定性，增强“四个意识”、坚定“四个自信”、做到“两个维护”的现实表现；C.遵纪守法和遵守社会公德、家庭美德以及网络行为表现的情况；D.家庭主要成员和重要社会关系的政治情况。"
   },
   {
     "id": 219,
@@ -2949,7 +2949,7 @@ window.QUESTIONS = [
       "D. 群众"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.党小组；B.培养联系人；C.党员；D.群众。"
   },
   {
     "id": 220,
@@ -2964,7 +2964,7 @@ window.QUESTIONS = [
       "E. 支部书记签名"
     ],
     "answer": "ABCDE",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCDE。具体包括：A.发展对象的主要表现；B.应到会和实际到会有表决权的党员人数；C.表决结果；D.通过决议的日期；E.支部书记签名。"
   },
   {
     "id": 221,
@@ -2979,7 +2979,7 @@ window.QUESTIONS = [
       "E. 实践锻炼"
     ],
     "answer": "ABCDE",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCDE。具体包括：A.党的组织生活；B.听取本人汇报；C.个别谈心；D.集中培训；E.实践锻炼。"
   },
   {
     "id": 222,
@@ -2993,7 +2993,7 @@ window.QUESTIONS = [
       "D. 征求所在单位意见"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.同本人谈话；B.查阅有关档案材料；C.找有关单位和人员了解情况以及必要的函调或外调。"
   },
   {
     "id": 223,
@@ -3008,7 +3008,7 @@ window.QUESTIONS = [
       "E. 发展对象批准为预备党员后，继续对其进行教育帮助"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.向发展对象解释党的纲领、章程，说明党员的条件、义务和权利；B.认真了解发展对象的入党动机、政治觉悟、道德品质、学习工作经历、现实表现等情况，如实向党组织汇报；C.指导发展对象填写《中国共产党入党志愿书》，并认真填写自己的意见；D.向党支部党员大会负责地介绍发展对象的情况。"
   },
   {
     "id": 224,
@@ -3022,7 +3022,7 @@ window.QUESTIONS = [
       "D. 组织员"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AD。具体包括：A.党委委员；D.组织员。"
   },
   {
     "id": 225,
@@ -3036,7 +3036,7 @@ window.QUESTIONS = [
       "D. 公示材料"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据《中国共产党入党志愿书》的相关规定，本题正确答案为ABC。具体包括：A.本人入党申请书；B.政治审查材料；C.《入党积极分子培养考察登记表》。"
   },
   {
     "id": 226,
@@ -3290,7 +3290,7 @@ window.QUESTIONS = [
       "D. 群众纪律"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（政治纪律）。"
   },
   {
     "id": 247,
@@ -3304,7 +3304,7 @@ window.QUESTIONS = [
       "D. 全体党员"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（人民群众）。"
   },
   {
     "id": 248,
@@ -3316,7 +3316,7 @@ window.QUESTIONS = [
       "B. 政治理论"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（人民群众）。"
   },
   {
     "id": 249,
@@ -3329,7 +3329,7 @@ window.QUESTIONS = [
       "C. 党内民主"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（党内民主）。"
   },
   {
     "id": 250,
@@ -3341,7 +3341,7 @@ window.QUESTIONS = [
       "B. 社会主义"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（民主集中制）。"
   },
   {
     "id": 251,
@@ -3354,7 +3354,7 @@ window.QUESTIONS = [
       "C. 加强党内民主"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《关于新形势下党内政治生活的若干准则》的相关规定，本题正确答案为A（坚定理想信念）。"
   },
   {
     "id": 252,
@@ -3367,7 +3367,7 @@ window.QUESTIONS = [
       "C. 建设党内民主"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（坚决维护党中央权威、保证全党令行禁止）。"
   },
   {
     "id": 253,
@@ -3380,7 +3380,7 @@ window.QUESTIONS = [
       "C. 人民立场"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（人民立场）。"
   },
   {
     "id": 254,
@@ -3393,7 +3393,7 @@ window.QUESTIONS = [
       "C. 坚持正确选人用人导向"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（坚持正确选人用人导向）。"
   },
   {
     "id": 255,
@@ -3406,7 +3406,7 @@ window.QUESTIONS = [
       "C. 实名"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（实名）。"
   },
   {
     "id": 256,
@@ -3418,7 +3418,7 @@ window.QUESTIONS = [
       "B. 一案双查"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（容错纠错机制）。"
   },
   {
     "id": 257,
@@ -3430,7 +3430,7 @@ window.QUESTIONS = [
       "B. 政治建设"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（经济建设）。"
   },
   {
     "id": 258,
@@ -3442,7 +3442,7 @@ window.QUESTIONS = [
       "B. 共产主义远大理想和中国特色社会主义共同理想"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（共产主义远大理想和中国特色社会主义共同理想）。"
   },
   {
     "id": 259,
@@ -3455,7 +3455,7 @@ window.QUESTIONS = [
       "C. 党的组织生活"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党内政治生活）。"
   },
   {
     "id": 260,
@@ -3468,7 +3468,7 @@ window.QUESTIONS = [
       "C. 理想信念"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（思想理论）。"
   },
   {
     "id": 261,
@@ -3482,7 +3482,7 @@ window.QUESTIONS = [
       "D. 把党的主张变为群众的自觉行动，引领群众听党话、跟党走"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.坚决反对命令主义；B.坚决反对 “尾巴主义”；C.不允许为了个人政绩、选票和形象脱离实际随意决策、随便许愿；D.把党的主张变为群众的自觉行动，引领群众听党话、跟党走。"
   },
   {
     "id": 262,
@@ -3496,7 +3496,7 @@ window.QUESTIONS = [
       "D. 庸俗化"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.表面化；B.形式化；C.娱乐化；D.庸俗化。"
   },
   {
     "id": 263,
@@ -3510,7 +3510,7 @@ window.QUESTIONS = [
       "D. 有权必监督"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.有权必有责；B.用权必担责；C.滥权必追责。"
   },
   {
     "id": 264,
@@ -3524,7 +3524,7 @@ window.QUESTIONS = [
       "D. 执行纪律没有例外"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据《关于新形势下党内政治生活的若干准则》的相关规定，本题正确答案为BCD。具体包括：B.纪律面前一律平等；C.遵守纪律没有特权；D.执行纪律没有例外。"
   },
   {
     "id": 265,
@@ -3539,7 +3539,7 @@ window.QUESTIONS = [
       "E. 开放"
     ],
     "answer": "ABCDE",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCDE。具体包括：A.创新；B.协调；C.共享；D.绿色；E.开放。"
   },
   {
     "id": 266,
@@ -3553,7 +3553,7 @@ window.QUESTIONS = [
       "D. 坚持信念坚定、为民服务、勤政务实、敢于担当、清正廉洁的好干部标准"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《关于新形势下党内政治生活的若干准则》的相关规定，本题正确答案为ABCD。具体包括：A.坚持党章规定的干部条件；B.坚持德才兼备、以德为先；C.坚持五湖四海、任人唯贤；D.坚持信念坚定、为民服务、勤政务实、敢于担当、清正廉洁的好干部标准。"
   },
   {
     "id": 267,
@@ -3567,7 +3567,7 @@ window.QUESTIONS = [
       "D. 家风"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.家庭；C.家教；D.家风。"
   },
   {
     "id": 268,
@@ -3581,7 +3581,7 @@ window.QUESTIONS = [
       "D. 党小组会"
     ],
     "answer": "ACD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ACD。具体包括：A.党员大会；C.上党课；D.党小组会。"
   },
   {
     "id": 269,
@@ -3596,7 +3596,7 @@ window.QUESTIONS = [
       "E. 政治自信"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.道路自信；B.理论自信；C.制度自信；D.文化自信。"
   },
   {
     "id": 270,
@@ -3611,7 +3611,7 @@ window.QUESTIONS = [
       "E. 纪律意识"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.政治意识；B.大局意识；C.核心意识；D.看齐意识。"
   },
   {
     "id": 271,
@@ -3625,7 +3625,7 @@ window.QUESTIONS = [
       "D. 反对奢靡之风，重在解决铺张浪费、挥霍无度，骄奢淫逸、腐化堕落等问题"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.反对形式主义，重在解决作风飘浮、工作不实，文山会海、表面文章，贪图虚名、弄虚作假等问题；B.反对官僚主义，重在解决脱离实际、脱离群众，消极应付、推诿扯皮，作风霸道、迷恋特权等问题；C.反对享乐主义，重在解决追名逐利、贪图享受，讲究排场、玩物丧志等问题；D.反对奢靡之风，重在解决铺张浪费、挥霍无度，骄奢淫逸、腐化堕落等问题。"
   },
   {
     "id": 272,
@@ -3770,7 +3770,7 @@ window.QUESTIONS = [
       "C. 2012年10月23日"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为B（2022年10月22日）。"
   },
   {
     "id": 284,
@@ -3783,7 +3783,7 @@ window.QUESTIONS = [
       "C. 11 55"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（11 55）。"
   },
   {
     "id": 285,
@@ -3796,7 +3796,7 @@ window.QUESTIONS = [
       "C. 中国人民和中华民族"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（中国人民和中华民族）。"
   },
   {
     "id": 286,
@@ -3809,7 +3809,7 @@ window.QUESTIONS = [
       "C. 全面建成小康社会"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（共产主义）。"
   },
   {
     "id": 287,
@@ -3822,7 +3822,7 @@ window.QUESTIONS = [
       "C. 社会主义核心价值"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（习近平新时代中国特色社会主义思想）。"
   },
   {
     "id": 288,
@@ -3835,7 +3835,7 @@ window.QUESTIONS = [
       "C. 最新成果 理论武器"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（最新成果 行动指南）。"
   },
   {
     "id": 289,
@@ -3848,7 +3848,7 @@ window.QUESTIONS = [
       "C. 伟大斗争 新时代"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（伟大斗争 新时代）。"
   },
   {
     "id": 290,
@@ -3861,7 +3861,7 @@ window.QUESTIONS = [
       "C. 实现社会主义现代化和中华民族伟大复兴 四步走"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（实现社会主义现代化和中华民族伟大复兴 两步走）。"
   },
   {
     "id": 291,
@@ -3874,7 +3874,7 @@ window.QUESTIONS = [
       "C. 8"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（14）。"
   },
   {
     "id": 292,
@@ -3887,7 +3887,7 @@ window.QUESTIONS = [
       "C. 人类社会历史发展的规律"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（人类社会历史发展的规律）。"
   },
   {
     "id": 293,
@@ -3900,7 +3900,7 @@ window.QUESTIONS = [
       "C. 适合中国国情"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（适合中国国情）。"
   },
   {
     "id": 294,
@@ -3913,7 +3913,7 @@ window.QUESTIONS = [
       "C. 完成祖国统一"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（完成祖国统一）。"
   },
   {
     "id": 295,
@@ -3926,7 +3926,7 @@ window.QUESTIONS = [
       "C. 人民日益增长的美好生活需要 不平衡不充分的发展"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（人民日益增长的美好生活需要 不平衡不充分的发展）。"
   },
   {
     "id": 296,
@@ -3939,7 +3939,7 @@ window.QUESTIONS = [
       "C. 改革"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（发展）。"
   },
   {
     "id": 297,
@@ -3951,7 +3951,7 @@ window.QUESTIONS = [
       "B. 共赢"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（共享）。"
   },
   {
     "id": 298,
@@ -3963,7 +3963,7 @@ window.QUESTIONS = [
       "B. 全面建设小康社会、加快推进社会主义现代化"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（全面建设小康社会、加快推进社会主义现代化）。"
   },
   {
     "id": 299,
@@ -3976,7 +3976,7 @@ window.QUESTIONS = [
       "C. 作风健设"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（生态文明建设）。"
   },
   {
     "id": 300,
@@ -3989,7 +3989,7 @@ window.QUESTIONS = [
       "C. 全面脱贫攻坚"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（全面从严治党）。"
   },
   {
     "id": 301,
@@ -4001,7 +4001,7 @@ window.QUESTIONS = [
       "B. 全面建成小康社会"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（全面建成小康社会）。"
   },
   {
     "id": 302,
@@ -4013,7 +4013,7 @@ window.QUESTIONS = [
       "B. 政治建设"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（经济建设）。"
   },
   {
     "id": 303,
@@ -4025,7 +4025,7 @@ window.QUESTIONS = [
       "B. 创新"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为B（创新）。"
   },
   {
     "id": 304,
@@ -4037,7 +4037,7 @@ window.QUESTIONS = [
       "B. 改革开放"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（中国共产党的领导）。"
   },
   {
     "id": 305,
@@ -4050,7 +4050,7 @@ window.QUESTIONS = [
       "C. 科技兴国战略"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（改革开放）。"
   },
   {
     "id": 306,
@@ -4062,7 +4062,7 @@ window.QUESTIONS = [
       "B. 德才兼备、以德为先"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（德才兼备、以德为先）。"
   },
   {
     "id": 307,
@@ -4074,7 +4074,7 @@ window.QUESTIONS = [
       "B. 基本政策"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（基本方略）。"
   },
   {
     "id": 308,
@@ -4087,7 +4087,7 @@ window.QUESTIONS = [
       "C. 党的群众路线"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为A（党的思想路线）。"
   },
   {
     "id": 309,
@@ -4100,7 +4100,7 @@ window.QUESTIONS = [
       "C. 批评与自我批评"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（密切联系群众）。"
   },
   {
     "id": 310,
@@ -4112,7 +4112,7 @@ window.QUESTIONS = [
       "B. 脱离群众"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（脱离群众）。"
   },
   {
     "id": 311,
@@ -4125,7 +4125,7 @@ window.QUESTIONS = [
       "C. 党的群众路线"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（党的群众路线）。"
   },
   {
     "id": 312,
@@ -4138,7 +4138,7 @@ window.QUESTIONS = [
       "C. 以习近平同志为核心的党中央权威和集中统一领导"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（以习近平同志为核心的党中央权威和集中统一领导）。"
   },
   {
     "id": 313,
@@ -4150,7 +4150,7 @@ window.QUESTIONS = [
       "B. 不同职务的党员有所区别"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（人人平等）。"
   },
   {
     "id": 314,
@@ -4162,7 +4162,7 @@ window.QUESTIONS = [
       "B. 纪律"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（纪律）。"
   },
   {
     "id": 315,
@@ -4175,7 +4175,7 @@ window.QUESTIONS = [
       "C. 不敢腐、不能腐、不想腐"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（不敢腐、不能腐、不想腐）。"
   },
   {
     "id": 316,
@@ -4187,7 +4187,7 @@ window.QUESTIONS = [
       "B. 民主集中制"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（中国共产党的领导）。"
   },
   {
     "id": 317,
@@ -4200,7 +4200,7 @@ window.QUESTIONS = [
       "C. 20岁"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（18岁）。"
   },
   {
     "id": 318,
@@ -4212,7 +4212,7 @@ window.QUESTIONS = [
       "B. 党的政治纪律和政治规矩"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（党的政治纪律和政治规矩）。"
   },
   {
     "id": 319,
@@ -4225,7 +4225,7 @@ window.QUESTIONS = [
       "C. 有分寸"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（有根据）。"
   },
   {
     "id": 320,
@@ -4238,7 +4238,7 @@ window.QUESTIONS = [
       "C. 本人有权参加和进行申辩，其他党员可以为他作证和辩护"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（本人有权参加和进行申辩，其他党员可以为他作证和辩护）。"
   },
   {
     "id": 321,
@@ -4251,7 +4251,7 @@ window.QUESTIONS = [
       "C. 必须坚决执行，可以声明保留，但不可以向上级组织提出"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（在坚决执行的前提下，可以声明保留，并且可以把自己的意见向党的上级组织直至中央提出）。"
   },
   {
     "id": 322,
@@ -4264,7 +4264,7 @@ window.QUESTIONS = [
       "C. 民主生活会"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（民主生活会）。"
   },
   {
     "id": 323,
@@ -4277,7 +4277,7 @@ window.QUESTIONS = [
       "C. 12个月"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（6个月）。"
   },
   {
     "id": 324,
@@ -4290,7 +4290,7 @@ window.QUESTIONS = [
       "C. 充分征求党内外群众意见"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（提交所在的党组织讨论决定，或向上级党组织请示）。"
   },
   {
     "id": 325,
@@ -4302,7 +4302,7 @@ window.QUESTIONS = [
       "B. 要提交所在的党组织讨论决定"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（事后要迅速向党组织报告）。"
   },
   {
     "id": 326,
@@ -4316,7 +4316,7 @@ window.QUESTIONS = [
       "D. 维护党的团结和统一"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.密切联系群众；B.坚持党和人民的利益高于一切，个人利益服从党和人民的利益；D.维护党的团结和统一。"
   },
   {
     "id": 327,
@@ -4330,7 +4330,7 @@ window.QUESTIONS = [
       "D. 总支部委员会"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.党的基层委员会；B.支部委员会；D.总支部委员会。"
   },
   {
     "id": 328,
@@ -4344,7 +4344,7 @@ window.QUESTIONS = [
       "D. 选举权和被选举权"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AD。具体包括：A.表决权；D.选举权和被选举权。"
   },
   {
     "id": 329,
@@ -4442,7 +4442,7 @@ window.QUESTIONS = [
       "D. 继承和发扬"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（继承和创新）。"
   },
   {
     "id": 337,
@@ -4456,7 +4456,7 @@ window.QUESTIONS = [
       "D. 150"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（100）。"
   },
   {
     "id": 338,
@@ -4470,7 +4470,7 @@ window.QUESTIONS = [
       "D. 5"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（5）。"
   },
   {
     "id": 339,
@@ -4484,7 +4484,7 @@ window.QUESTIONS = [
       "D. 终身制"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（任期制）。"
   },
   {
     "id": 340,
@@ -4498,7 +4498,7 @@ window.QUESTIONS = [
       "D. 党小组"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（总支部委员会）。"
   },
   {
     "id": 341,
@@ -4512,7 +4512,7 @@ window.QUESTIONS = [
       "D. 党小组"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（党支部）。"
   },
   {
     "id": 342,
@@ -4526,7 +4526,7 @@ window.QUESTIONS = [
       "D. 双重"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（双重）。"
   },
   {
     "id": 343,
@@ -4540,7 +4540,7 @@ window.QUESTIONS = [
       "D. 法治化"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（制度化）。"
   },
   {
     "id": 344,
@@ -4554,7 +4554,7 @@ window.QUESTIONS = [
       "D. 守则"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（章程）。"
   },
   {
     "id": 345,
@@ -4568,7 +4568,7 @@ window.QUESTIONS = [
       "D. 治理能力"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（政治属性）。"
   },
   {
     "id": 346,
@@ -4582,7 +4582,7 @@ window.QUESTIONS = [
       "D. 终身课题"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（终身课题）。"
   },
   {
     "id": 347,
@@ -4596,7 +4596,7 @@ window.QUESTIONS = [
       "D. 社会观"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（政绩观）。"
   },
   {
     "id": 348,
@@ -4610,7 +4610,7 @@ window.QUESTIONS = [
       "D. 4"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（1）。"
   },
   {
     "id": 349,
@@ -4624,7 +4624,7 @@ window.QUESTIONS = [
       "D. 制度化"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（专业化）。"
   },
   {
     "id": 350,
@@ -4638,7 +4638,7 @@ window.QUESTIONS = [
       "D. 3%"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（2%）。"
   },
   {
     "id": 351,
@@ -4652,7 +4652,7 @@ window.QUESTIONS = [
       "D. 具体"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（具体）。"
   },
   {
     "id": 352,
@@ -4666,7 +4666,7 @@ window.QUESTIONS = [
       "D. 具体"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（统一）。"
   },
   {
     "id": 353,
@@ -4680,7 +4680,7 @@ window.QUESTIONS = [
       "D. 全部责任"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（主体责任）。"
   },
   {
     "id": 354,
@@ -4694,7 +4694,7 @@ window.QUESTIONS = [
       "D. 第一负责人"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（第一责任人）。"
   },
   {
     "id": 355,
@@ -4708,7 +4708,7 @@ window.QUESTIONS = [
       "D. 一届任期"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（年）。"
   },
   {
     "id": 356,
@@ -4722,7 +4722,7 @@ window.QUESTIONS = [
       "D. 年"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（年）。"
   },
   {
     "id": 357,
@@ -4736,7 +4736,7 @@ window.QUESTIONS = [
       "D. 党的代表大会"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.党的委员会；B.党的机关工作委员会；C.本单位党组（党委）。"
   },
   {
     "id": 358,
@@ -4750,7 +4750,7 @@ window.QUESTIONS = [
       "D. 处罚"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.监督；B.执纪；C.问责。"
   },
   {
     "id": 359,
@@ -4764,7 +4764,7 @@ window.QUESTIONS = [
       "D. 奢靡之风"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.形式主义；B.官僚主义；C.享乐主义；D.奢靡之风。"
   },
   {
     "id": 360,
@@ -4778,7 +4778,7 @@ window.QUESTIONS = [
       "D. 急难险重任务"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.党员先锋岗；B.服务群众标兵；C.为群众服务；D.急难险重任务。"
   },
   {
     "id": 361,
@@ -4792,7 +4792,7 @@ window.QUESTIONS = [
       "D. 发挥作用"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.控制总量；B.优化结构；C.提高质量；D.发挥作用。"
   },
   {
     "id": 362,
@@ -4806,7 +4806,7 @@ window.QUESTIONS = [
       "D. 战斗性"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.积极性；B.主动性；C.创造性。"
   },
   {
     "id": 363,
@@ -4820,7 +4820,7 @@ window.QUESTIONS = [
       "D. 会议决定"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.集体领导；B.民主集中；C.个别酝酿；D.会议决定。"
   },
   {
     "id": 364,
@@ -4834,7 +4834,7 @@ window.QUESTIONS = [
       "D. 监督权"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.知情权；B.参与权；C.选举权；D.监督权。"
   },
   {
     "id": 365,
@@ -4848,7 +4848,7 @@ window.QUESTIONS = [
       "D. 作风好"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.政治强；C.业务精；D.作风好。"
   },
   {
     "id": 366,
@@ -4862,7 +4862,7 @@ window.QUESTIONS = [
       "D. 重品行"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.守信念；B.讲奉献；C.有本领；D.重品行。"
   },
   {
     "id": 367,
@@ -4876,7 +4876,7 @@ window.QUESTIONS = [
       "D. 保障服务"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.明确责任；B.考核监督；D.保障服务。"
   },
   {
     "id": 368,
@@ -5022,7 +5022,7 @@ window.QUESTIONS = [
       "D. 5"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（3）。"
   },
   {
     "id": 380,
@@ -5036,7 +5036,7 @@ window.QUESTIONS = [
       "D. 3至7"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（3至7）。"
   },
   {
     "id": 381,
@@ -5050,7 +5050,7 @@ window.QUESTIONS = [
       "D. 5"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（3）。"
   },
   {
     "id": 382,
@@ -5064,7 +5064,7 @@ window.QUESTIONS = [
       "D. 每季度"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（每月）。"
   },
   {
     "id": 383,
@@ -5078,7 +5078,7 @@ window.QUESTIONS = [
       "D. 无记名投票"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党组会议）。"
   },
   {
     "id": 384,
@@ -5092,7 +5092,7 @@ window.QUESTIONS = [
       "D. 上级党委组织部门"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（党中央或者本级地方党委）。"
   },
   {
     "id": 385,
@@ -5106,7 +5106,7 @@ window.QUESTIONS = [
       "D. 八 四十五"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据《中国共产党党组工作条例》的相关规定，本题正确答案为D（八 四十五）。"
   },
   {
     "id": 386,
@@ -5120,7 +5120,7 @@ window.QUESTIONS = [
       "D. 5 5"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党党组工作条例》的相关规定，本题正确答案为A（4 6）。"
   },
   {
     "id": 387,
@@ -5134,7 +5134,7 @@ window.QUESTIONS = [
       "D. 领导机构 引领"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（领导机构 领导）。"
   },
   {
     "id": 388,
@@ -5148,7 +5148,7 @@ window.QUESTIONS = [
       "D. 根据需要"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（应当）。"
   },
   {
     "id": 389,
@@ -5162,7 +5162,7 @@ window.QUESTIONS = [
       "D. 根据需要"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（可以）。"
   },
   {
     "id": 390,
@@ -5176,7 +5176,7 @@ window.QUESTIONS = [
       "D. 党建办"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（党委组织部门）。"
   },
   {
     "id": 391,
@@ -5190,7 +5190,7 @@ window.QUESTIONS = [
       "D. 本级党委组织部门"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（本级党委组织部门）。"
   },
   {
     "id": 392,
@@ -5204,7 +5204,7 @@ window.QUESTIONS = [
       "D. 党委组织部门"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党组织）。"
   },
   {
     "id": 393,
@@ -5218,7 +5218,7 @@ window.QUESTIONS = [
       "D. 以上选项都不对"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为D（以上选项都不对）。"
   },
   {
     "id": 394,
@@ -5232,7 +5232,7 @@ window.QUESTIONS = [
       "D. 领导 教导"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（领导 指导）。"
   },
   {
     "id": 395,
@@ -5246,7 +5246,7 @@ window.QUESTIONS = [
       "D. 《党政领导干部考核工作条例》"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（《党政领导干部选拔任用工作条例》）。"
   },
   {
     "id": 396,
@@ -5260,7 +5260,7 @@ window.QUESTIONS = [
       "D. 以上选项均不正确"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（党章党规和党中央有关规定）。"
   },
   {
     "id": 397,
@@ -5274,7 +5274,7 @@ window.QUESTIONS = [
       "D. 半数 四分之三"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（半数 三分之二）。"
   },
   {
     "id": 398,
@@ -5288,7 +5288,7 @@ window.QUESTIONS = [
       "D. 党员"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党组书记）。"
   },
   {
     "id": 399,
@@ -5302,7 +5302,7 @@ window.QUESTIONS = [
       "D. 中央党的建设工作领导小组办公室"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党党组工作条例》的相关规定，本题正确答案为B（中央组织部会同中央办公厅）。"
   },
   {
     "id": 400,
@@ -5316,7 +5316,7 @@ window.QUESTIONS = [
       "D. 督查、评估和反馈"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（督查、评估和反馈）。"
   },
   {
     "id": 401,
@@ -5330,7 +5330,7 @@ window.QUESTIONS = [
       "D. 实施细则"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党党组工作条例》的相关规定，本题正确答案为A（工作规则）。"
   },
   {
     "id": 402,
@@ -5344,7 +5344,7 @@ window.QUESTIONS = [
       "D. 文化组织和其他非党组织"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.中央和地方国家机关；B.人民团体；C.经济组织；D.文化组织和其他非党组织。"
   },
   {
     "id": 403,
@@ -5358,7 +5358,7 @@ window.QUESTIONS = [
       "D. 县级以上政府设立的有关管委会的工作部门"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.县级以上人大常委会、政府、政协、法院、检察院；B.县级以上政府工作部门、派出机关（街道办事处除外）、直属事业单位；C.县级以上工会、妇联等人民团体；D.县级以上政府设立的有关管委会的工作部门。"
   },
   {
     "id": 404,
@@ -5372,7 +5372,7 @@ window.QUESTIONS = [
       "D. 政协"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.人大常委会；C.政府；D.政协。"
   },
   {
     "id": 405,
@@ -5386,7 +5386,7 @@ window.QUESTIONS = [
       "D. 同考核"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.同谋划；B.同部署；C.同推进；D.同考核。"
   },
   {
     "id": 406,
@@ -5400,7 +5400,7 @@ window.QUESTIONS = [
       "D. 政治道路"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.政治立场；B.政治方向；C.政治原则；D.政治道路。"
   },
   {
     "id": 407,
@@ -5414,7 +5414,7 @@ window.QUESTIONS = [
       "D. 会议决定"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.集体领导；B.民主集中；C.个别酝酿；D.会议决定。"
   },
   {
     "id": 408,
@@ -5428,7 +5428,7 @@ window.QUESTIONS = [
       "D. 实行双重领导的单位党组，接受上级单位党组的领导"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.人大常委会机关党组、政府机关党组、政协机关党组，分别接受人大常委会党组、政府党组、政协党组的领导；C.政府工作部门管理的单位党组，接受部门党组的指导督促；D.实行双重领导的单位党组，接受上级单位党组的领导。"
   },
   {
     "id": 409,
@@ -5442,7 +5442,7 @@ window.QUESTIONS = [
       "D. 记名投票"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.口头；B.举手；C.无记名投票；D.记名投票。"
   },
   {
     "id": 410,
@@ -5456,7 +5456,7 @@ window.QUESTIONS = [
       "D. A和C正确，B错误"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.以党组名义发布或者上报的文件、发表的文章，党组成员代表党组的讲话和报告，应当事先经党组集体讨论或者传批审定；B.党组成员署名发表或者出版同工作有关的文章、著作、言论，应当事先经党组审定或者党组书记批准；C.党组成员在调查研究、检查指导工作或者参加其他公务活动时发表的个人意见，应当符合党中央以及上级党组织、党组的有关精神。"
   },
   {
     "id": 411,
@@ -5470,7 +5470,7 @@ window.QUESTIONS = [
       "D. 市级以上法院、检察院的派出机构"
     ],
     "answer": "ABD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABD。具体包括：A.国务院有关部门的派出机构；B.具有行业、系统管理需要的国务院有关直属事业单位、中央一级有关人民团体的下属单位；D.市级以上法院、检察院的派出机构。"
   },
   {
     "id": 412,
@@ -5484,7 +5484,7 @@ window.QUESTIONS = [
       "D. 一般由党建办负责考核"
     ],
     "answer": "AB",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AB。具体包括：A.一般由批准设立党组（党委）的党组织负责考核；B.纪检监察机关、党的有关工作机关、党的机关工委参与。"
   },
   {
     "id": 413,
@@ -5499,7 +5499,7 @@ window.QUESTIONS = [
       "E. 市县两级政府及县级以上地方政府个别工作部门确需增加的，由本级党委批准，但总数不得超过10人"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.党组成员一般设3至7人；B.副省部级以上单位、中管企业党组成员一般不超过9人，个别单位确需增加的，由党中央决定；C.市县两级政府及县级以上地方政府个别工作部门确需增加的，按程序报请省级党委批准，但总数不得超过9人。"
   },
   {
     "id": 414,
@@ -5514,7 +5514,7 @@ window.QUESTIONS = [
       "E. 开除"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.批评教育、责令作出检查；B.诫勉、通报批评；C.调离岗位、责令辞职；D.免职、降职。"
   },
   {
     "id": 415,
@@ -5528,7 +5528,7 @@ window.QUESTIONS = [
       "D. 县级以上工会、妇联等人民团体"
     ],
     "answer": "AC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AC。具体包括：A.共青团组织；C.地方国有企业。"
   },
   {
     "id": 416,
@@ -5542,7 +5542,7 @@ window.QUESTIONS = [
       "D. 以上选项都正确"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.董事会；B.经理层；C.监事会；D.以上选项都正确。"
   },
   {
     "id": 417,
@@ -5796,7 +5796,7 @@ window.QUESTIONS = [
       "D. 审判机关"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为B（监察机关）。"
   },
   {
     "id": 438,
@@ -5810,7 +5810,7 @@ window.QUESTIONS = [
       "D. 严重警告"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（开除党籍）。"
   },
   {
     "id": 439,
@@ -5824,7 +5824,7 @@ window.QUESTIONS = [
       "D. 撤销党内职务 严重警告"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（开除党籍 留党察看）。"
   },
   {
     "id": 440,
@@ -5838,7 +5838,7 @@ window.QUESTIONS = [
       "D. 惩戒与宣传"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（惩戒与教育）。"
   },
   {
     "id": 441,
@@ -5852,7 +5852,7 @@ window.QUESTIONS = [
       "D. ①②③"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（①②③④⑤）。"
   },
   {
     "id": 442,
@@ -5866,7 +5866,7 @@ window.QUESTIONS = [
       "D. 一年"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（六个月）。"
   },
   {
     "id": 443,
@@ -5880,7 +5880,7 @@ window.QUESTIONS = [
       "D. 六年"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（五年）。"
   },
   {
     "id": 444,
@@ -5894,7 +5894,7 @@ window.QUESTIONS = [
       "D. 受到开除党籍处分的党员，五年内不得重新入党"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（党内警告的处分影响期为6个月）。"
   },
   {
     "id": 445,
@@ -5908,7 +5908,7 @@ window.QUESTIONS = [
       "D. 先中止，待其处分期满，自动恢复党代表资格"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（党组织应当终止其代表资格）。"
   },
   {
     "id": 446,
@@ -5922,7 +5922,7 @@ window.QUESTIONS = [
       "D. 向所在支部的全体党员、本人和所在党组织领导班子"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（向所在支部的全体党员、本人和所在党组织领导班子）。"
   },
   {
     "id": 447,
@@ -5936,7 +5936,7 @@ window.QUESTIONS = [
       "D. 违反廉洁纪律"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（违反法律法规）。"
   },
   {
     "id": 448,
@@ -5950,7 +5950,7 @@ window.QUESTIONS = [
       "D. 应当尽快"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（无需）。"
   },
   {
     "id": 449,
@@ -5964,7 +5964,7 @@ window.QUESTIONS = [
       "D. 应当从重处分"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（应当从重或者加重处分）。"
   },
   {
     "id": 450,
@@ -5978,7 +5978,7 @@ window.QUESTIONS = [
       "D. 不得在党内提拔职务或者进一步使用，也不得向党外组织推荐担任高于其原任职务的党外职务或者进一步使用 多选题："
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（不得在党内提拔职务或者进一步使用，也不得向党外组织推荐担任高于其原任职务的党外职务或者进一步使用 多选题：）。"
   },
   {
     "id": 451,
@@ -5992,7 +5992,7 @@ window.QUESTIONS = [
       "D. 开除"
     ],
     "answer": "AC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AC。具体包括：A.党纪；C.政务。"
   },
   {
     "id": 452,
@@ -6006,7 +6006,7 @@ window.QUESTIONS = [
       "D. 取消其预备党员资格"
     ],
     "answer": "ACD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ACD。具体包括：A.保留；C.延长预备期；D.取消其预备党员资格。"
   },
   {
     "id": 453,
@@ -6020,7 +6020,7 @@ window.QUESTIONS = [
       "D. 劝退或者除名"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABCD。具体包括：A.逐个审查；B.重新登记；C.教育；D.劝退或者除名。"
   },
   {
     "id": 454,
@@ -6034,7 +6034,7 @@ window.QUESTIONS = [
       "D. 国家安全"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为ABC。具体包括：A.国家法律法规；B.党和国家政策；C.党、国家和人民利益。"
   },
   {
     "id": 455,
@@ -6048,7 +6048,7 @@ window.QUESTIONS = [
       "D. 解散"
     ],
     "answer": "AD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AD。具体包括：A.改组；D.解散。"
   },
   {
     "id": 456,
@@ -6062,7 +6062,7 @@ window.QUESTIONS = [
       "D. 《中国共产党廉洁自律准则》"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为ABC。具体包括：A.民主权利；B.遵纪守法；C.《中国共产党章程》。"
   },
   {
     "id": 457,
@@ -6076,7 +6076,7 @@ window.QUESTIONS = [
       "D. 留党察看"
     ],
     "answer": "AB",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AB。具体包括：A.警告；B.严重警告。"
   },
   {
     "id": 458,
@@ -6090,7 +6090,7 @@ window.QUESTIONS = [
       "D. 加重"
     ],
     "answer": "AC",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为AC。具体包括：A.从轻；C.从重。"
   },
   {
     "id": 459,
@@ -6104,7 +6104,7 @@ window.QUESTIONS = [
       "D. 个人参与数额"
     ],
     "answer": "BC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BC。具体包括：B.共同违纪；C.应负的责任。"
   },
   {
     "id": 460,
@@ -6118,7 +6118,7 @@ window.QUESTIONS = [
       "D. 开除党籍"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.刑法；C.警告；D.开除党籍。"
   },
   {
     "id": 461,
@@ -6132,7 +6132,7 @@ window.QUESTIONS = [
       "D. 次要领导责任者"
     ],
     "answer": "ABC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为ABC。具体包括：A.直接责任者；B.主要领导责任者；C.重要领导责任者。"
   },
   {
     "id": 462,
@@ -6146,7 +6146,7 @@ window.QUESTIONS = [
       "D. 重要领导"
     ],
     "answer": "BD",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为BD。具体包括：B.主要领导；D.重要领导。"
   },
   {
     "id": 463,
@@ -6160,7 +6160,7 @@ window.QUESTIONS = [
       "D. 党内监督权 判断题："
     ],
     "answer": "BC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BC。具体包括：B.留置；C.表决权、选举权和被选举权。"
   },
   {
     "id": 464,
@@ -6318,7 +6318,7 @@ window.QUESTIONS = [
       "D. 不违反党的纪律"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（应当给予其撤销党内职务以上处分）。"
   },
   {
     "id": 477,
@@ -6332,7 +6332,7 @@ window.QUESTIONS = [
       "D. 选举权、表决权和申诉权"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（表决权、选举权和被选举权）。"
   },
   {
     "id": 478,
@@ -6346,7 +6346,7 @@ window.QUESTIONS = [
       "D. 党纪处分"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（“红红脸、出出汗”）。"
   },
   {
     "id": 479,
@@ -6360,7 +6360,7 @@ window.QUESTIONS = [
       "D. 暂时封存"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（予以接收）。"
   },
   {
     "id": 480,
@@ -6374,7 +6374,7 @@ window.QUESTIONS = [
       "D. 开除党籍"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（严重警告，如果在党外组织担任职务的，应当建议党外组织撤销其党外职务）。"
   },
   {
     "id": 481,
@@ -6388,7 +6388,7 @@ window.QUESTIONS = [
       "D. ②③④"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（①②③④）。"
   },
   {
     "id": 482,
@@ -6402,7 +6402,7 @@ window.QUESTIONS = [
       "D. 开除党籍"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为D（开除党籍）。"
   },
   {
     "id": 483,
@@ -6416,7 +6416,7 @@ window.QUESTIONS = [
       "D. 两档 两档"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为B（一档 一档）。"
   },
   {
     "id": 484,
@@ -6430,7 +6430,7 @@ window.QUESTIONS = [
       "D. 一年"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（六个月）。"
   },
   {
     "id": 485,
@@ -6444,7 +6444,7 @@ window.QUESTIONS = [
       "D. 三个月"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据《中国共产党章程》的相关规定，本题正确答案为C（六个月）。"
   },
   {
     "id": 486,
@@ -6458,7 +6458,7 @@ window.QUESTIONS = [
       "D. 一年"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（六个月）。"
   },
   {
     "id": 487,
@@ -6472,7 +6472,7 @@ window.QUESTIONS = [
       "D. 警告"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（开除党籍）。"
   },
   {
     "id": 488,
@@ -6486,7 +6486,7 @@ window.QUESTIONS = [
       "D. 半年，二年"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（一年，二年）。"
   },
   {
     "id": 489,
@@ -6500,7 +6500,7 @@ window.QUESTIONS = [
       "D. 最低处分加重两档"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为A（最高处分加重一档）。"
   },
   {
     "id": 490,
@@ -6514,7 +6514,7 @@ window.QUESTIONS = [
       "D. 严重警告"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（开除党籍）。"
   },
   {
     "id": 491,
@@ -6528,7 +6528,7 @@ window.QUESTIONS = [
       "D. 按较长的处分影响期"
     ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为A（原处分尚未执行的影响期与新处分影响期之和）。"
   },
   {
     "id": 492,
@@ -6542,7 +6542,7 @@ window.QUESTIONS = [
       "D. 违反社会公德"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为B（匿名诬告）。"
   },
   {
     "id": 493,
@@ -6556,7 +6556,7 @@ window.QUESTIONS = [
       "D. 开除党籍处分 多选题："
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为C（撤销党内职务处分）。"
   },
   {
     "id": 494,
@@ -6570,7 +6570,7 @@ window.QUESTIONS = [
       "D. 减轻"
     ],
     "answer": "AC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为AC。具体包括：A.从重；C.加重。"
   },
   {
     "id": 495,
@@ -6584,7 +6584,7 @@ window.QUESTIONS = [
       "D. 谈话函询、立案审查"
     ],
     "answer": "AC",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为AC。具体包括：A.谈话函询、初步核实；C.谈话函询、初步核实和立案审查。"
   },
   {
     "id": 496,
@@ -6598,7 +6598,7 @@ window.QUESTIONS = [
       "D. 留党察看"
     ],
     "answer": "BD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BD。具体包括：B.严重警告；D.留党察看。"
   },
   {
     "id": 497,
@@ -6612,7 +6612,7 @@ window.QUESTIONS = [
       "D. 开除党籍"
     ],
     "answer": "BCD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BCD。具体包括：B.刑法；C.警告；D.开除党籍。"
   },
   {
     "id": 498,
@@ -6626,7 +6626,7 @@ window.QUESTIONS = [
       "D. 组织处理"
     ],
     "answer": "ABCD",
-    "explanation": ""
+    "explanation": "根据《中国共产党纪律处分条例》的相关规定，本题正确答案为ABCD。具体包括：A.批评教育；B.责令检查；C.诫勉；D.组织处理。"
   },
   {
     "id": 499,
@@ -6640,7 +6640,7 @@ window.QUESTIONS = [
       "D. 留党察看"
     ],
     "answer": "CD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为CD。具体包括：C.撤销党内职务；D.留党察看。"
   },
   {
     "id": 500,
@@ -6654,7 +6654,7 @@ window.QUESTIONS = [
       "D. 留党察看"
     ],
     "answer": "BD",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BD。具体包括：B.结党营私；D.留党察看。"
   },
   {
     "id": 501,
@@ -6668,7 +6668,7 @@ window.QUESTIONS = [
       "D. 个人参与数额 判断题："
     ],
     "answer": "BC",
-    "explanation": ""
+    "explanation": "根据相关党规党纪的相关规定，本题正确答案为BC。具体包括：B.共同违纪；C.应负的责任。"
   },
   {
     "id": 502,
