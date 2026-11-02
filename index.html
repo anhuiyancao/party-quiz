@@ -1203,7 +1203,13 @@ D. 实现共同富裕
 //   { id:3, category:"党的二十大精神", type:"judge", question:"题目内容", options:["正确","错误"], answer:"正确", explanation:"解析" },
 // ]
 </script>
-<script src="data.js?v=574"></script>
+<!-- 题库从 CDN 加载（比 GitHub Pages 直连快 10 倍左右）；CDN 不可用时自动回退到本地 data.js -->
+<script src="https://cdn.jsdelivr.net/gh/anhuiyancao/party-quiz@main/data.js"></script>
+<script>
+if (!window.QUESTIONS || window.QUESTIONS.length === 0) {
+  document.write('<script src="data.js?v=574"><\/script>');
+}
+</script>
 <script>
 // ============ 全局状态 ============
 let QUESTIONS = window.QUESTIONS || [];
@@ -1472,6 +1478,17 @@ function initUserPage() {
 // 后端 API 地址（Deno Deploy 云端同步服务，已部署上线）
 const API_BASE = window.CLOUD_API_BASE || 'https://epic-bee-1749.anhuiyancao.deno.net';
 
+// 云端请求统一加超时，网络卡住时不会长时间无响应
+async function cloudFetch(path, options = {}, timeout = 10000) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeout);
+  try {
+    return await fetch(API_BASE + path, { ...options, signal: ctrl.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // 云端登录状态
 const CLOUD_TOKEN_KEY = 'cloud_token';
 const CLOUD_USER_KEY = 'cloud_user';
@@ -1535,7 +1552,7 @@ async function cloudRegister() {
 
   showToast('注册中...');
   try {
-    const r = await fetch(API_BASE + '/api/register', {
+    const r = await cloudFetch('/api/register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username: name, phone, password })
@@ -1544,7 +1561,7 @@ async function cloudRegister() {
     if (!r.ok) { showToast(j.error || '注册失败'); return; }
 
     // 注册成功后自动登录
-    const loginR = await fetch(API_BASE + '/api/login', {
+    const loginR = await cloudFetch('/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ phone, password })
@@ -1582,7 +1599,7 @@ async function cloudLogin() {
   showToast('登录中...');
   setCloudStatus('同步中', 'syncing');
   try {
-    const r = await fetch(API_BASE + '/api/login', {
+    const r = await cloudFetch('/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ phone, password })
@@ -1644,7 +1661,7 @@ async function cloudSyncPull() {
   const token = getCloudToken();
   setSyncInfo('⏳ 正在拉取云端数据...');
   try {
-    const r = await fetch(API_BASE + '/api/sync', {
+    const r = await cloudFetch('/api/sync', {
       headers: { 'Authorization': 'Bearer ' + token }
     });
     const j = await r.json();
@@ -1702,7 +1719,7 @@ async function cloudSyncPush() {
   };
   setSyncInfo('⏳ 正在同步到云端...');
   try {
-    const r = await fetch(API_BASE + '/api/sync', {
+    const r = await cloudFetch('/api/sync', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
       body: JSON.stringify(data)
