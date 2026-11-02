@@ -714,6 +714,37 @@ body {
 }
 .subj-a b { color:var(--green); }
 
+.juan-title {
+  font-size:15px; font-weight:800; color:var(--red-dark);
+  margin:18px 0 6px; padding:6px 10px; border-radius:8px;
+  background:rgba(196,30,58,0.08);
+}
+
+/* 主观题模拟（先题后答） */
+.subj-exam-head {
+  display:flex; justify-content:space-between; align-items:center;
+  margin-bottom:12px; font-size:13px; color:var(--text-light);
+}
+.se-badge {
+  background:rgba(196,30,58,0.1); color:var(--red); font-weight:700;
+  padding:4px 10px; border-radius:6px; font-size:12px;
+}
+.subj-exam-card {
+  background:var(--card); border:1px solid var(--border);
+  border-radius:16px; padding:20px; box-shadow:0 2px 12px rgba(0,0,0,0.06);
+}
+.se-label {
+  font-size:12px; font-weight:700; color:var(--red);
+  letter-spacing:1px; margin-bottom:8px;
+}
+.se-question { font-size:20px; font-weight:600; line-height:1.85; }
+.se-answer {
+  margin-top:18px; padding-top:16px; border-top:1px dashed var(--border);
+  animation:fadeIn 0.25s ease;
+}
+.se-answer .se-label { color:var(--green); }
+.se-answer-text { font-size:19px; line-height:1.9; color:var(--text); }
+
 /* 隐藏元素 */
 .hidden { display:none !important; }
 </style>
@@ -949,43 +980,34 @@ D. 实现共同富裕
       <div class="icon">📋</div>
       <h3>实操模拟</h3>
       <p style="font-size:13px;color:var(--text-light);margin-bottom:12px">市直机关党支部书记"大比武"<br>党务理论和实操测试全真试卷</p>
-      <div class="info-item"><span>客观题</span><span class="val">单选10×2分 + 多选10×3分</span></div>
-      <div class="info-item"><span>主观题</span><span class="val">填空+案例+简答+论述 共50分</span></div>
-      <div class="info-item"><span>全卷满分</span><span class="val">100分</span></div>
+      <div class="info-item"><span>客观题</span><span class="val">两套合并 · 40题 · 满分100分</span></div>
+      <div class="info-item"><span>主观题</span><span class="val">两套合并 · 填空+案例+简答+论述</span></div>
+      <div class="info-item"><span>练习方式</span><span class="val">客观模拟 / 主观模拟 / 主观背题</span></div>
     </div>
 
-    <div class="practice-paper-card" onclick="startPracticeExam('juan1')">
-      <div class="pp-badge">卷一</div>
+    <div class="practice-paper-card" onclick="startPracticeExam('all')">
+      <div class="pp-badge">客观</div>
       <div class="pp-info">
-        <h3>实操模拟卷一 · 客观题模拟</h3>
-        <p>20题 · 满分50分 · 45分钟 · 自动判分</p>
+        <h3>客观题模拟</h3>
+        <p>两套合并 · 40题 · 满分100分 · 60分钟 · 自动判分</p>
       </div>
       <div class="feature-arrow">›</div>
     </div>
 
-    <div class="practice-paper-card" onclick="startPracticeExam('juan2')">
-      <div class="pp-badge">卷二</div>
+    <div class="practice-paper-card subj" onclick="startSubjExam()">
+      <div class="pp-badge">模拟</div>
       <div class="pp-info">
-        <h3>实操模拟卷二 · 客观题模拟</h3>
-        <p>20题 · 满分50分 · 45分钟 · 自动判分</p>
+        <h3>主观题模拟</h3>
+        <p>两套合并 · 逐题练习 · 先看题，再看答案</p>
       </div>
       <div class="feature-arrow">›</div>
     </div>
 
-    <div class="practice-paper-card subj" onclick="openPracticeBack('juan1')">
-      <div class="pp-badge">卷一</div>
+    <div class="practice-paper-card subj" onclick="openPracticeBack('all')">
+      <div class="pp-badge">背题</div>
       <div class="pp-info">
-        <h3>实操模拟卷一 · 主观题背题</h3>
-        <p>填空5 + 案例2 + 简答2 + 论述2 · 直接看答案</p>
-      </div>
-      <div class="feature-arrow">›</div>
-    </div>
-
-    <div class="practice-paper-card subj" onclick="openPracticeBack('juan2')">
-      <div class="pp-badge">卷二</div>
-      <div class="pp-info">
-        <h3>实操模拟卷二 · 主观题背题</h3>
-        <p>填空5 + 案例2 + 简答2 + 论述2 · 直接看答案</p>
+        <h3>主观题背题</h3>
+        <p>两套合并 · 题目与参考答案对照 · 直接查看</p>
       </div>
       <div class="feature-arrow">›</div>
     </div>
@@ -996,6 +1018,11 @@ D. 实现共同富裕
   <!-- 实操模拟主观题背题页 -->
   <div class="page" id="page-practice-back">
     <div id="practiceBackContent"></div>
+  </div>
+
+  <!-- 主观题模拟（先题后答，逐题翻页） -->
+  <div class="page" id="page-subj-exam">
+    <div id="subjExamContent"></div>
   </div>
 
   <!-- 顺序刷题错题练习 -->
@@ -1442,9 +1469,8 @@ function initUserPage() {
 /* ============================================================
  *      ☁️ 云端同步（跨设备数据同步）
  * ============================================================ */
-// 后端 API 地址（部署后端服务后，请修改为实际服务器地址，例如 https://your-server.com）
-// 本地开发时使用 http://localhost:3001
-const API_BASE = window.CLOUD_API_BASE || 'http://localhost:3001';
+// 后端 API 地址（Deno Deploy 云端同步服务，已部署上线）
+const API_BASE = window.CLOUD_API_BASE || 'https://epic-bee-1749.anhuiyancao.deno.net';
 
 // 云端登录状态
 const CLOUD_TOKEN_KEY = 'cloud_token';
@@ -1594,6 +1620,24 @@ function cloudLogout() {
   renderCloudUI();
 }
 
+// 数组合并：历史记录取并集，保证每次成绩都被永久保留
+function mergeArrays(local, cloud, key) {
+  const merged = [];
+  const seen = new Set();
+  const keyOf = (item) => {
+    if (key === 'wrong_questions') return String(item && item.id);
+    if (typeof item !== 'object' || item === null) return JSON.stringify(item);
+    return [item.date, item.score, item.total, item.mode, item.juan].join('|');
+  };
+  [...local, ...cloud].forEach(item => {
+    const k = keyOf(item);
+    if (seen.has(k)) return;
+    seen.add(k);
+    merged.push(item);
+  });
+  return merged;
+}
+
 // 拉取云端数据到本地（合并策略：云端非空字段合并到本地）
 async function cloudSyncPull() {
   if (!isCloudLoggedIn()) return;
@@ -1618,7 +1662,7 @@ async function cloudSyncPull() {
     const uid = getCurrentUserId();
 
     // 合并各数据字段
-    const keys = ['seq_progress', 'wrong_questions', 'exam_history', 'user_stats'];
+    const keys = ['seq_progress', 'wrong_questions', 'exam_history', 'practice_exam_history', 'user_stats'];
     keys.forEach(key => {
       if (cloudData[key] !== undefined && cloudData[key] !== null) {
         const local = RAW_loadData(uid + '_' + key, null);
@@ -1628,8 +1672,11 @@ async function cloudSyncPull() {
         } else if (typeof cloudData[key] === 'object' && !Array.isArray(cloudData[key])) {
           // 对象类型：云端覆盖本地（云端为权威）
           RAW_saveData(uid + '_' + key, { ...local, ...cloudData[key] });
+        } else if (Array.isArray(cloudData[key]) && Array.isArray(local)) {
+          // 数组类型：取并集，历史成绩永久保留不丢失
+          RAW_saveData(uid + '_' + key, mergeArrays(local, cloudData[key], key));
         } else {
-          // 数组或基本类型：云端覆盖
+          // 基本类型：云端覆盖
           RAW_saveData(uid + '_' + key, cloudData[key]);
         }
       }
@@ -1650,6 +1697,7 @@ async function cloudSyncPush() {
     seq_progress: RAW_loadData(uid + '_seq_progress', {}),
     wrong_questions: RAW_loadData(uid + '_wrong_questions', []),
     exam_history: RAW_loadData(uid + '_exam_history', []),
+    practice_exam_history: RAW_loadData(uid + '_practice_exam_history', []),
     user_stats: RAW_loadData(uid + '_user_stats', {}),
   };
   setSyncInfo('⏳ 正在同步到云端...');
@@ -2004,6 +2052,7 @@ function goToPage(page) {
     'result': { title: '考试结果', sub: '', back: true },
     'practice': { title: '实操模拟', sub: '大比武全真试卷 · 与模拟考试独立', back: true },
     'practice-back': { title: '主观题背题', sub: '直接显示答案', back: true },
+    'subj-exam': { title: '主观题模拟', sub: '先看题目 · 再看答案', back: true },
     'upload': { title: '题库管理', sub: '上传或管理题库文件', back: true },
     'user': { title: '用户中心', sub: '注册账号 切换登录', back: true },
     'rank': { title: '排行榜', sub: '比学赶帮超 争做好学员', back: true },
@@ -2586,16 +2635,15 @@ function initExamPage() {
 
   // 实操模拟模式：渲染该卷的客观题说明页
   if (examState.mode === 'practice' && examState.juan) {
-    const juanName = examState.juan === 'juan1' ? '实操模拟卷一' : '实操模拟卷二';
     $('examIntro').innerHTML = `
       <div class="exam-intro">
         <div class="icon">📋</div>
-        <h3>${juanName} · 客观题模拟</h3>
-        <div class="info-item"><span>题目数量</span><span class="val">20题</span></div>
-        <div class="info-item"><span>单选</span><span class="val">10题 × 2分</span></div>
-        <div class="info-item"><span>多选</span><span class="val">10题 × 3分</span></div>
-        <div class="info-item"><span>满分</span><span class="val">50分</span></div>
-        <div class="info-item"><span>考试时间</span><span class="val">45分钟</span></div>
+        <h3>实操模拟 · 客观题</h3>
+        <div class="info-item"><span>题目数量</span><span class="val">40题（两套合并）</span></div>
+        <div class="info-item"><span>单选</span><span class="val">20题 × 2分</span></div>
+        <div class="info-item"><span>多选</span><span class="val">20题 × 3分</span></div>
+        <div class="info-item"><span>满分</span><span class="val">100分</span></div>
+        <div class="info-item"><span>考试时间</span><span class="val">60分钟</span></div>
         <button class="start-exam-btn" onclick="startPracticeExam('${examState.juan}')">开始考试</button>
       </div>
     `;
@@ -2623,10 +2671,10 @@ function initExamPage() {
     histEl.innerHTML = '';
     return;
   }
-  let html = '<h3>历史成绩</h3>';
+  let html = '<h3>历史成绩（共 ' + exams.length + ' 次）</h3>';
   exams.slice().reverse().forEach((e, idx) => {
     const realIdx = exams.length - 1 - idx;
-    const cls = e.score >= 60 ? 'pass' : 'fail';
+    const cls = e.score >= (e.passScore || 60) ? 'pass' : 'fail';
     html += `
       <div class="history-item" style="cursor:pointer" onclick="viewExamHistory(${realIdx})">
         <div>
@@ -2645,7 +2693,7 @@ function viewExamHistory(idx, key) {
   const exams = loadData(key, []);
   const e = exams[idx];
   if (!e) return;
-  const passLine = e.mode === 'practice' ? 30 : 60;
+  const passLine = e.passScore || (e.mode === 'practice' ? 30 : 60);
 
   let html = `
     <div class="result-hero">
@@ -2922,6 +2970,7 @@ function submitExam() {
     skip,
     total: examState.list.length,
     fullScore: examState.fullScore,
+    passScore: examState.passScore,
     mode: examState.mode,
     juan: examState.juan,
     date: new Date().toLocaleString('zh-CN'),
@@ -3049,27 +3098,27 @@ function renderResult(score, correct, wrong, skip, durStr, details) {
 
 // ============ 实操模拟（大比武试卷，与旧模拟考试独立） ============
 function startPracticeExam(juan) {
-  const cat = juan === 'juan1' ? '实操模拟卷一' : '实操模拟卷二';
-  const list = QUESTIONS.filter(q => q.category === cat).sort((a, b) => a.id - b.id);
+  const cats = juan === 'all' ? ['实操模拟卷一', '实操模拟卷二'] : [juan === 'juan1' ? '实操模拟卷一' : '实操模拟卷二'];
+  const list = QUESTIONS.filter(q => cats.includes(q.category)).sort((a, b) => a.id - b.id);
   if (list.length === 0) { showToast('试卷题目缺失，请更新题库'); return; }
 
   examState.list = list;
   examState.mode = 'practice';
-  examState.juan = juan;
+  examState.juan = juan === 'all' ? 'all' : juan;
   examState.singleScore = 2;
   examState.multiScore = 3;
-  examState.passScore = 30;
-  examState.fullScore = 50;
+  examState.passScore = 60;
+  examState.fullScore = 100;
   examState.index = 0;
   examState.answers = {};
   examState.marked = {};
-  examState.timeLeft = 2700; // 45分钟
+  examState.timeLeft = 3600; // 60分钟
   examState.started = true;
   examState.startTime = Date.now();
 
   goToPage('exam');
-  $('pageTitle').textContent = cat;
-  $('pageSubtitle').textContent = '客观题 20题 · 满分50分';
+  $('pageTitle').textContent = juan === 'all' ? '实操模拟 · 客观题' : (juan === 'juan1' ? '实操模拟卷一' : '实操模拟卷二');
+  $('pageSubtitle').textContent = '客观题 ' + list.length + '题 · 满分100分';
   $('examIntro').style.display = 'none';
   $('examContent').style.display = 'block';
 
@@ -3086,11 +3135,12 @@ function initPracticePage() {
     histEl.innerHTML = '';
     return;
   }
-  let html = '<h3>实操模拟历史成绩</h3>';
+  let html = '<h3>实操模拟历史成绩（共 ' + exams.length + ' 次）</h3>';
   exams.slice().reverse().forEach((e, idx) => {
     const realIdx = exams.length - 1 - idx;
-    const cls = e.score >= 30 ? 'pass' : 'fail';
-    const juanName = e.juan === 'juan1' ? '卷一' : e.juan === 'juan2' ? '卷二' : '';
+    const passLine = e.passScore || (e.mode === 'practice' ? 30 : 60);
+    const cls = e.score >= passLine ? 'pass' : 'fail';
+    const juanName = e.juan === 'all' ? '两套合并' : e.juan === 'juan1' ? '卷一' : e.juan === 'juan2' ? '卷二' : '';
     html += `
       <div class="history-item" style="cursor:pointer" onclick="viewExamHistory(${realIdx}, 'practice_exam_history')">
         <div>
@@ -3104,35 +3154,126 @@ function initPracticePage() {
   histEl.innerHTML = html;
 }
 
+const SUBJ_GROUPS = [
+  { key: 'fills', name: '三、填空题', score: '每空1分', short: '填空题' },
+  { key: 'cases', name: '四、实务案例题', score: '每题6分', short: '实务案例题' },
+  { key: 'shorts', name: '五、简答题', score: '每题5分', short: '简答题' },
+  { key: 'essays', name: '六、分析论述题', score: '每题9分', short: '分析论述题' },
+];
+
+function juanNameOf(j) { return j === 'juan1' ? '实操模拟卷一' : '实操模拟卷二'; }
+
 function openPracticeBack(juan) {
   $('practiceBackContent').innerHTML = renderPracticeSubjHtml(juan);
   goToPage('practice-back');
-  $('pageSubtitle').textContent = (juan === 'juan1' ? '实操模拟卷一' : '实操模拟卷二') + ' · 主观题';
+  $('pageSubtitle').textContent = juan === 'all' ? '两套合并 · 主观题' : juanNameOf(juan) + ' · 主观题';
 }
 
 function renderPracticeSubjHtml(juan) {
-  const data = window.PRACTICE_SUBJECTIVE && window.PRACTICE_SUBJECTIVE[juan];
-  if (!data) return '<div class="empty-state"><div class="icon">📭</div><div class="text">主观题数据缺失</div></div>';
-  const groups = [
-    { key: 'fills', name: '三、填空题', score: '每空1分' },
-    { key: 'cases', name: '四、实务案例题', score: '每题6分' },
-    { key: 'shorts', name: '五、简答题', score: '每题5分' },
-    { key: 'essays', name: '六、分析论述题', score: '每题9分' },
-  ];
+  const juans = juan === 'all' ? ['juan1', 'juan2'] : [juan];
   let html = '';
-  groups.forEach(g => {
-    const items = data[g.key] || [];
-    if (!items.length) return;
-    html += `<div class="subj-group"><h4>${g.name}（${g.score}）</h4>`;
-    items.forEach((it, i) => {
-      html += `<div class="subj-item">
-        <div class="subj-q">${i + 1}. ${it.question}</div>
-        <div class="subj-a"><b>参考答案：</b>${it.answer}</div>
-      </div>`;
+  juans.forEach(j => {
+    const data = window.PRACTICE_SUBJECTIVE && window.PRACTICE_SUBJECTIVE[j];
+    if (!data) return;
+    if (juan === 'all') html += `<div class="juan-title">${juanNameOf(j)}</div>`;
+    SUBJ_GROUPS.forEach(g => {
+      const items = data[g.key] || [];
+      if (!items.length) return;
+      html += `<div class="subj-group"><h4>${g.name}（${g.score}）</h4>`;
+      items.forEach((it, i) => {
+        html += `<div class="subj-item">
+          <div class="subj-q">${i + 1}. ${it.question}</div>
+          <div class="subj-a"><b>参考答案：</b>${it.answer}</div>
+        </div>`;
+      });
+      html += '</div>';
     });
-    html += '</div>';
   });
+  if (!html) return '<div class="empty-state"><div class="icon">📭</div><div class="text">主观题数据缺失</div></div>';
   return html;
+}
+
+// ---- 主观题模拟：先题目，后答案，逐题翻页 ----
+const subjState = { list: [], index: 0, showAnswer: false };
+
+function getSubjList() {
+  const out = [];
+  ['juan1', 'juan2'].forEach(j => {
+    const data = window.PRACTICE_SUBJECTIVE && window.PRACTICE_SUBJECTIVE[j];
+    if (!data) return;
+    SUBJ_GROUPS.forEach(g => {
+      (data[g.key] || []).forEach((it, i) => {
+        out.push({
+          juanName: j === 'juan1' ? '卷一' : '卷二',
+          groupName: g.short,
+          question: it.question,
+          answer: it.answer,
+          no: i + 1,
+        });
+      });
+    });
+  });
+  return out;
+}
+
+function startSubjExam() {
+  subjState.list = getSubjList();
+  if (!subjState.list.length) { showToast('主观题数据缺失，请更新题库'); return; }
+  subjState.index = 0;
+  subjState.showAnswer = false;
+  goToPage('subj-exam');
+  renderSubjExam();
+}
+
+function toggleSubjAnswer() {
+  subjState.showAnswer = !subjState.showAnswer;
+  renderSubjExam();
+}
+
+function prevSubjExam() {
+  if (subjState.index <= 0) return;
+  subjState.index--;
+  subjState.showAnswer = false;
+  renderSubjExam();
+}
+
+function nextSubjExam() {
+  if (subjState.index >= subjState.list.length - 1) {
+    showToast('主观题已全部完成');
+    goToPage('practice');
+    return;
+  }
+  subjState.index++;
+  subjState.showAnswer = false;
+  renderSubjExam();
+}
+
+function renderSubjExam() {
+  const it = subjState.list[subjState.index];
+  const total = subjState.list.length;
+  const isLast = subjState.index === total - 1;
+  const html = `
+    <div class="subj-exam-head">
+      <span class="se-badge">${it.juanName} · ${it.groupName} · 第${it.no}题</span>
+      <span>${subjState.index + 1} / ${total}</span>
+    </div>
+    <div class="subj-exam-card">
+      <div class="se-label">题目</div>
+      <div class="se-question">${it.question}</div>
+      ${subjState.showAnswer ? `<div class="se-answer">
+        <div class="se-label">参考答案</div>
+        <div class="se-answer-text">${it.answer || '（暂无参考答案）'}</div>
+      </div>` : ''}
+    </div>
+    <div class="action-bar" style="position:sticky;bottom:0">
+      <button class="btn btn-secondary" onclick="prevSubjExam()" ${subjState.index === 0 ? 'disabled' : ''}>上一题</button>
+      ${subjState.showAnswer
+        ? `<button class="btn btn-primary" onclick="nextSubjExam()">${isLast ? '完成' : '下一题'}</button>`
+        : `<button class="btn btn-gold" onclick="toggleSubjAnswer()">查看答案</button>`}
+    </div>
+  `;
+  $('subjExamContent').innerHTML = html;
+  window.scrollTo(0, 0);
 }
 
 // ============ 分享功能 ============
